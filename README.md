@@ -1,15 +1,3 @@
-## 🦥 `Minimal Mistakes theme customized by choiiis`
-
-📎 **블로그 바로 가기**
-[`https://choiiis.github.io/`](https://choiiis.github.io/)
-
----
-
-fork 해서 사용하시기 편하게 변경해서 새로 올려봅니다.  
-편하게 사용하시고, fork 하실 때 `star` 하나만 눌러주세용 :)
-
-fork 후 설정이 필요한 사항들은 아래 내용을 참고하세요!
-
 ### ▪ 블로그 기본 정보 세팅
 
 [_config.yml]
@@ -326,23 +314,3 @@ comments: false
 
 본인 소개 여기에 입력
 ```
-
-_문의사항 또는 수정 요청은 블로그에 댓글 남겨주시거나 이메일로 연락주세요!_
-
----
-
-### 개발 기록
-
-[VER1.0]
-![choiiis github blog main](/assets/images/posts_img/readme/blog-main-ver1.png)
-
-[VER2.0]
-![choiiis github blog main](/assets/images/posts_img/readme/blog-main-ver2.png)
-
-- logo 변경
-- 카테고리 디자인 변경
-- font family, size 변경
-- 메인 컬러 변경
-
-[VER2.1]
-![choiiis github blog main](/assets/images/posts_img/readme/ver2_1_main.png)
