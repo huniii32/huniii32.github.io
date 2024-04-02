@@ -1,5 +1,5 @@
 ---
-title: "Github Blog 시작하기"
+title: "Github Blog 시작하기(01)"
 excerpt: "Github Blog Setting"
 
 categories:
