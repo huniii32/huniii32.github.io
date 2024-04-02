@@ -4,7 +4,7 @@ excerpt: "Upstage X FastCampus AI Lab"
 categories:
   - Blog
 tags:
-  - [, ]
+  - [git, bootcamp]
 
 permalink: /blog/bootcamp-start/
 
