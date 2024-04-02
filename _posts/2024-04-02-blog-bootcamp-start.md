@@ -2,11 +2,11 @@
 title: "Upstage AI Lab 시작"
 excerpt: "Upstage X FastCampus AI Lab"
 categories:
-  - Blog
+  - Bootcamp
 tags:
   - [git, bootcamp]
 
-permalink: /blog/bootcamp-start/
+permalink: /bootcamp/bootcamp-start/
 
 toc: true
 toc_sticky: true
@@ -27,7 +27,8 @@ last_modified_at: 2024-04-02
 결과는....!!! 합격했다...진짜 열심히 해야지...  
 아무튼 좋은 결과로 나타나서 좋았다!!
 
-![이미지 준비중](C:\huniii\huniii32.github.io\assets\images\posts_img\bootcamp-start\main1.jpg)   
+![main1](https://github.com/huniii32/huniii32.github.io/assets/164001121/1c4f2453-5c6f-4836-9b23-f6dc04f06aa2)
+
 
 좋아하기 보다는 이제 시작이라는 생각을 갖기로 하였다...  
 그러고 필요한 서류 및 **국민내일배움카드** 발급을 받고 왔다!!  
@@ -65,7 +66,6 @@ last_modified_at: 2024-04-02
 **OT를 듣고 나서 나는 완전 죽었다 생각하고 열심히 하고 싶다는 생각밖에 안드는거같다!!!**  
 **이번 기회를 통해 성장해서 원하는 목표를 이루는 날이 왔으면 좋겠다!!!**
 
+![image](https://github.com/huniii32/huniii32.github.io/assets/164001121/8fb36bd4-19df-4118-8b71-3d480a8d689b)
+
 #패스트캠퍼스 #업스테이지패스트캠퍼스 #AI부트캠프
-
-
-
