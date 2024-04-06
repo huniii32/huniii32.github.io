@@ -1,6 +1,6 @@
 ---
 title: "Upstage AI Lab 시작"
-excerpt: "Upstage X FastCampus AI Lab"
+excerpt: "Upstage X FastCampus AI Lab - OT"
 categories:
   - Bootcamp
 tags:
