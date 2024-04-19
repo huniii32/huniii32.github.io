@@ -37,7 +37,7 @@ last_modified_at: 2024-04-19
   - .. : 상위 디렉토리  
   - . : 해당 디렉토리    
 
-- cp main.py ./main_copy.py : main.py를 해당 디렉토리에 main_copy.py 이름 변경후 복사
+- cp main.py ./main_copy.py : main.py를 해당 디렉토리에 main_copy.py 복사
   - cp main.py ..  
 
 - mv LICENSE ./license.txt : LICENSE를 해당 디렉토리에 license.txt 이름으로 이동(변경)  
@@ -66,15 +66,19 @@ last_modified_at: 2024-04-19
 ### **2. 기본 설정(config)**
 
 **2.1 gitconfig 편집**
-> vi ~/.gitconfig  
+```
+vi ~/.gitconfig  
+```
 
 **2.2 global 설정**
-> git config --global core.autocrlf false  
-> git config --global user.name "username"  
-> git config --global user.email "email"  
-> git config --global core.editor "vim"  
-> git config --global core.pager "cat"  
-> git config --global alias.lg "log --graph --pretty=tformat:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --decorate=full"  
+```
+git config --global core.autocrlf false  
+git config --global user.name "username"  
+git config --global user.email "email"  
+git config --global core.editor "vim"  
+git config --global core.pager "cat"  
+git config --global alias.lg "log --graph --pretty=tformat:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --decorate=full"  
+```
 
 **2.3 repositories 생성**
 1. Name 설정
@@ -127,7 +131,7 @@ last_modified_at: 2024-04-19
 특정 파일이나 디렉토리를 추적하지 않도록 명시하기 위한 파일  
 
 (템플릿 참고 사이트)  
-https://www.toptal.com/developers/gitignore/  
+https://www.toptal.com/developers/gitignore/[https://www.toptal.com/developers/gitignore/]   
 이곳을 잘 활용해보자!  
 
 
@@ -150,6 +154,9 @@ https://www.toptal.com/developers/gitignore/
     - Markdown 학습!
 3. Side Project
     - 짧은 단위의 프로젝트를 자주 수행하여 **생성-완성**까지의 과정을 반복해보자!
+
+
+**참고로 본인은 다음주 예비군간다...4년차...그래도 친구랑 같이 가서 다행ㅋㅋㅋㅋㅋㅋ**
 
 ![fighting](https://github.com/huniii32/first-repo/assets/164001121/740ac834-ef67-47e9-a219-6899c856af07)
 ---
