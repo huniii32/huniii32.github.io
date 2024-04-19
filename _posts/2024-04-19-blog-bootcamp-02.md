@@ -131,7 +131,7 @@ git config --global alias.lg "log --graph --pretty=tformat:'%Cred%h%Creset -%C(y
 특정 파일이나 디렉토리를 추적하지 않도록 명시하기 위한 파일  
 
 (템플릿 참고 사이트)  
-https://www.toptal.com/developers/gitignore/[https://www.toptal.com/developers/gitignore/]   
+[https://www.toptal.com/developers/gitignore/](https://www.toptal.com/developers/gitignore/)
 이곳을 잘 활용해보자!  
 
 
