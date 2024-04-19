@@ -151,6 +151,6 @@ https://www.toptal.com/developers/gitignore/
 3. Side Project
     - 짧은 단위의 프로젝트를 자주 수행하여 **생성-완성**까지의 과정을 반복해보자!
 
-<img src="https://github.com/huniii32/first-repo/assets/164001121/740ac834-ef67-47e9-a219-6899c856af07" width="70%" height="60%" title="파이팅" alt="RubberDuck"></img>
+![fighting](https://github.com/huniii32/first-repo/assets/164001121/740ac834-ef67-47e9-a219-6899c856af07)
 ---
 #패스트캠퍼스 #업스테이지패스트캠퍼스 #AI부트캠프
