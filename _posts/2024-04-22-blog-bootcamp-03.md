@@ -109,7 +109,7 @@ $ git rm -f {filename}
 → Stage의 변경사항(blob) Working directory로 내리기   
 → staging area의 변경사항을 내림과 동시에 삭제   
 
-- Edit Commit
+- Edit Commit  
 ```
 $ git commit --amend
 
