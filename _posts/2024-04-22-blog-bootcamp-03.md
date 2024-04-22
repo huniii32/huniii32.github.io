@@ -86,62 +86,64 @@ $ git pull origin main
   - deploy, issue에 대응을 하기 쉽도록 한 모델
 
 ![image](https://github.com/huniii32/branch-practice/assets/164001121/acc58b29-2563-4c95-ba05-a21202e68515)
- 
+
 ## **Trouble-Shoot**
-- Rename   
-```  
-$ mv {filename} to {new_filename}  
-```  
-→ 파일 이름 or 위치 수정
 
-- Undo  
-```   
-$ git resotre {filename} or .(whole changes)  
-```   
-→ Working Directory에서 변경사항 취소하기
+- **Rename**
+    ```
+    $ mv {filename} to {new_filename}
+    ```
+    → 파일 이름이나 위치를 수정합니다.
 
-- Unstaging & Remove    
-```  
-$ git reset HEAD {filename}  
+- **Undo**
+    ```
+    $ git restore {filename} or .(whole changes)
+    ```
+    → 작업 디렉토리에서 변경 사항을 취소합니다.
 
-$ git rm -f {filename}  
-```  
-→ Stage의 변경사항(blob) Working directory로 내리기
-→ Staging area의 변경사항을 내림과 동시에 삭제
+- **Unstaging & Remove**
+    ```
+    $ git reset HEAD {filename}
 
-- Edit commit message  
-```  
-$ git commit --amend  
+    $ git rm -f {filename}
+    ```
+    → 스테이지된 변경 사항(blob)을 작업 디렉토리로 내립니다.  
+    → 스테이징 영역의 변경 사항을 내리면서 동시에 삭제합니다.
 
-$ git rebase -i <commit>  
-$ git rebase --continue  
-```  
-→ 직전 commit message 수정하기  
-→ 이전 commit message 수정하기(rebase 취소 : git rebase --abort)  
+- **Edit commit message**
+    ```
+    $ git commit --amend
 
-- Reset commit
-```
-$ git reset --hard HEAD~{nums of commit}  
-$ git push -f origin <branch>  
-```
-→ {nums of commit}개의 커밋을 삭제 후 remote <branch>에 강제 push  
-→ 협업 시에는 나의 local과 clone한 remote repo에서 지워졌다고 해도 다른 곳에 남아있던 이력으로 인해 살아나거나, 충돌이 발생함  
+    $ git rebase -i <commit>
+    $ git rebase --continue
+    ```
+    → 직전 커밋 메시지를 수정합니다.  
+    → 이전 커밋 메시지를 수정합니다. (rebase 취소: `git rebase --abort`)
 
-- Revert commit
-```
-$ git revert --no commit HEAD~{nums of commit}..  
-$ git commit  
-$ git push origin <branch>  
-```
-→ {nums of commit}개의 커밋을 되돌린 후 remote <branch>에 push  
-→ 잘못하기 직전 시점으로 되돌리고 해당 되돌림의 이력을 팀워들에게 전달하여 어떤 문제가 있었고, 어떻게 수행되는지에 대해 뚜렷한 설명 가능  
-    - commit을 따로 하지 않을 땐 'no-edit'  
-    - merge commit을 되돌릴 땐 '-m'  
+- **Reset commit**
+    ```
+    $ git reset --hard HEAD~{nums of commit}
+    $ git push -f origin <branch>
+    ```
+    → {nums of commit}개의 커밋을 삭제한 후 원격 <branch>로 강제 푸시합니다.  
+    → 협업 시에는 나의 로컬 및 클론한 원격 리포지토리에서 삭제되었다고 해도 다른 곳에 남아있던 이력 때문에 문제가 발생할 수 있습니다.
 
-(ex)
-```
-$ git revert -m {1 or 2} {merge commit id}
-``` 
+- **Revert commit**
+    ```
+    $ git revert --no commit HEAD~{nums of commit}..
+    $ git commit
+    $ git push origin <branch>
+    ```
+    → {nums of commit}개의 커밋을 되돌린 후 원격 <branch>로 푸시합니다.  
+    → 잘못하기 직전 시점으로 되돌리고 해당 되돌림의 이력을 팀원들에게 전달하여 어떤 문제가 있었고, 어떻게 수행되는지에 대해 명확하게 설명할 수 있습니다.  
+    - 커밋을 별도로 하지 않을 경우 'no-edit'  
+    - 병합 커밋을 되돌릴 경우 '-m'  
+
+    (예시)
+    ```
+    $ git revert -m {1 or 2} {merge commit id}
+    ```
+
 
 ## **총총**
 내가 얻은 것은 크게 두가지이다.  
