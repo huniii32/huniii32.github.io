@@ -101,7 +101,7 @@ $ git resotr {filename} or .(whole changes)
 → Working Directory에서 변경사항 취소하기
 
 - Unstaging   
-```   
+```  
 $ git reset HEAD {filename}   
 
 $ git rm -f {filenmae}   
@@ -115,7 +115,7 @@ $ git commit --amend
 
 $ git rebase -i <commit>   
 $ git rebase --continue   
-```    
+```      
 → 직전 commit message 수정하기   
 → 이전 commit message 수정하기(예전에 사용하던 커밋) - ❗비추함❗
 
