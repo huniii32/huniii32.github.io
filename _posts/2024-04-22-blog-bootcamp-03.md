@@ -46,15 +46,15 @@ $ git switch {space}
 **😀이것들을 모두 습관으로 만들자!!**  
 
 - git merge  
-```
-$ git merge {space}
 ```   
+$ git merge {space}   
+```    
 
-```
-✋vim normal mode✋
-- dd : 잘라내기
-- p : 붙여놓기
-```
+```   
+✋vim normal mode✋   
+- dd : 잘라내기   
+- p : 붙여놓기   
+```   
 
 ## **Git Branching Strategy**
 
@@ -70,15 +70,15 @@ $ git merge {space}
 
 ![image](https://github.com/huniii32/branch-practice/assets/164001121/63517b52-964d-43a0-9b3b-d5b19c99811a)
 
-```
-$ git push -u origin '공간'  
-```
+```   
+$ git push -u origin '공간'    
+```  
 
 **→ 올려놓고 Github에서 merge 실행**  
 
-```
-$ git pull origin main
-```
+```  
+$ git pull origin main  
+```  
 
 **→ Local Update**
 
@@ -89,43 +89,43 @@ $ git pull origin main
  
 ## **Trouble-Shoot**
 - Rename   
-```
-$ mv {filename} to {new_filename}
-```
+```  
+$ mv {filename} to {new_filename}  
+```  
 → 파일 이름 or 위치 수정
 
 - Undo  
 ```   
-$ git resotr {filename} or .(whole changes)
+$ git resotr {filename} or .(whole changes)  
 ```   
 → Working Directory에서 변경사항 취소하기
 
-- Unstaging  
+- Unstaging   
 ```   
-$ git reset HEAD {filename}
+$ git reset HEAD {filename}   
 
-$ git rm -f {filenmae}
+$ git rm -f {filenmae}   
 ```   
 → Stage의 변경사항(blob) Working directory로 내리기  
 → Staging area의 변경사항을 내림과 동시에 삭제  
 
-- Edit commit message
+- Edit commit message   
 ```   
-$ git commit --amend
+$ git commit --amend    
 
-$ git rebase -i <commit>
-$ git rebase --continue
+$ git rebase -i <commit>   
+$ git rebase --continue   
 ```    
-→ 직전 commit message 수정하기  
+→ 직전 commit message 수정하기   
 → 이전 commit message 수정하기(예전에 사용하던 커밋) - ❗비추함❗
 
-- Revert commit
+- Revert commit    
 ```    
-$ git revert --no-commit HEAD~{nums of commit}.. 
-$ git commit 
-$ git push origin <branch> 
+$ git revert --no-commit HEAD~{nums of commit}..   
+$ git commit  
+$ git push origin <branch>  
 
-$ git revert -m {1 or 2} {merge commit id}
+$ git revert -m {1 or 2} {merge commit id}   
 ```    
 → {nums of commit}개의 커밋을 되돌린 후 remote <branch>에 push   
 → 잘못하기 직전 시점으로 되돌리고 해당 되돌림의 이력을 팀원들에게 전달하여 어떤 문제가 있었고, 어떻게 수행되는지에 대해 뚜렷한 설명 가능    
