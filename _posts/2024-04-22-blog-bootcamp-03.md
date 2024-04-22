@@ -101,30 +101,30 @@ $ git resotr {filename} or .(whole changes)
 → Working Directory에서 변경사항 취소하기
 
 - Unstaging  
-```
+```   
 #1
 $ git reset HEAD {filename}
 
 #2
 $ git rm -f {filenmae}
-```
+```   
 → Stage의 변경사항(blob) Working directory로 내리기  
 → Staging area의 변경사항을 내림과 동시에 삭제  
 
 - Edit commit message
-```
+```   
 #1
 $ git commit --amend
 
 #2
 $ git rebase -i <commit>
 $ git rebase --continue
-```
+```    
 → 직전 commit message 수정하기  
 → 이전 commit message 수정하기(예전에 사용하던 커밋) - ❗비추함❗
 
 - Revert commit
-```
+```    
 #1
 $ git revert --no-commit HEAD~{nums of commit}.. 
 $ git commit 
@@ -132,7 +132,7 @@ $ git push origin <branch>
 
 (ex)
 $ git revert -m {1 or 2} {merge commit id}
-```
+```    
 → {nums of commit}개의 커밋을 되돌린 후 remote <branch>에 push   
 → 잘못하기 직전 시점으로 되돌리고 해당 되돌림의 이력을 팀원들에게 전달하여 어떤 문제가 있었고, 어떻게 수행되는지에 대해 뚜렷한 설명 가능    
 - commit을 따로 하지 않을 땐 ‘—no-edit’   
