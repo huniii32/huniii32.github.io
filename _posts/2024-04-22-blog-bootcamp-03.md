@@ -100,26 +100,26 @@ $ git resotre {filename} or .(whole changes)
 ```   
 → Working Directory에서 변경사항 취소하기
 
-- Unstaging & Remove
-```
+- Unstaging & Remove  
+```  
 $ git reset HEAD {filename}
 
 $ git rm -f {filename}
-``` 
+```  
 → Stage의 변경사항(blob) Working directory로 내리기   
 → staging area의 변경사항을 내림과 동시에 삭제   
 
-- Edit Commit  
-```
+- Edit Commit    
+```  
 $ git commit --amend
 
 $ git rebase -i <commit> 
 $ git rebase --continue (rebase 취소: git rebase --abort)
-```
+```  
 → 직전 commit message 수정하기
 → 이전 commit message 수정하기
 
-- Revert Commit
+- Revert Commit  
 ```  
 $ git revert --no-commit HEAD~{nums of commit}.. 
 $ git commit   
@@ -131,9 +131,9 @@ $ git push origin <branch>
 - commit을 따로 하지 않을 땐 ‘—no-edit’ 
 - merge commit을 되돌릴 땐 ‘-m’   
 
-```
+```  
 (ex) $ git revert -m {1 or 2} {merge commit id})
-```
+```  
 
 ## **총총**
 내가 얻은 것은 크게 두가지이다.  
