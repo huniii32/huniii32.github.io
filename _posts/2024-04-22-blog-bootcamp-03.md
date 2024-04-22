@@ -96,16 +96,16 @@ $ mv {filename} to {new_filename}
 
 - Undo  
 ```   
-$ git resotr {filename} or .(whole changes)  
+$ git resotre {filename} or .(whole changes)  
 ```   
 → Working Directory에서 변경사항 취소하기
 
 - Unstaging   
-```  
-$ git reset HEAD {filename}   
+  ```  
+  $ git reset HEAD {filename}   
 
-$ git rm -f {filenmae}   
-```   
+  $ git rm -f {filenmae}   
+  ```   
 → Stage의 변경사항(blob) Working directory로 내리기  
 → Staging area의 변경사항을 내림과 동시에 삭제  
 
