@@ -27,34 +27,34 @@ last_modified_at: 2024-04-22
 ![branch](https://github.com/huniii32/branch-practice/assets/164001121/54684367-c1e5-4d2e-ae74-b8c1fc70e097)
 
 - git branch 
-``` 
-$ git branch -r
-$ git branch -v
-$ git branch -a
-$ git branch {space}
-$ git branch -D {space}
-```
+  ``` 
+  $ git branch -r
+  $ git branch -v
+  $ git branch -a
+  $ git branch {space}
+  $ git branch -D {space}
+  ```
 
 - git switch
-```
-$ git switch {space}  
-```
+  ```
+  $ git switch {space}  
+  ```
 
-**→ 브런치 이동시 확인 및 'ls' 사용하여 파일 확인**  
-**→ 브런치 다 사용시 바로바로 삭제 하기!!**  
+  **→ 브런치 이동시 확인 및 'ls' 사용하여 파일 확인**  
+  **→ 브런치 다 사용시 바로바로 삭제 하기!!**  
 
 **😀이것들을 모두 습관으로 만들자!!**  
 
 - git merge  
-```   
-$ git merge {space}   
-```    
+  ```   
+  $ git merge {space}   
+  ```    
 
-```   
-✋vim normal mode✋   
-- dd : 잘라내기   
-- p : 붙여놓기   
-```   
+  ```  
+  ✋vim normal mode✋   
+  - dd : 잘라내기   
+  - p : 붙여놓기   
+  ```   
 
 ## **Git Branching Strategy**
 
@@ -70,17 +70,17 @@ $ git merge {space}
 
 ![image](https://github.com/huniii32/branch-practice/assets/164001121/63517b52-964d-43a0-9b3b-d5b19c99811a)
 
-```   
-$ git push -u origin '공간'    
-```  
+  ```   
+  $ git push -u origin '공간'    
+  ```  
 
-**→ 올려놓고 Github에서 merge 실행**  
+  **→ 올려놓고 Github에서 merge 실행**  
 
-```  
-$ git pull origin main  
-```  
+  ```  
+  $ git pull origin main  
+  ```  
 
-**→ Local Update**
+  **→ Local Update**
 
 - **gitlab flow**
   - deploy, issue에 대응을 하기 쉽도록 한 모델
