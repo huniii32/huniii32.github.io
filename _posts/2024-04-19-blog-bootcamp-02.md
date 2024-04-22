@@ -118,7 +118,7 @@ last_modified_at: 2024-04-22
   > This commit adds the sign up component to the application.   
   > Closes #123  
 
-  - 예시(2)
+- 예시(2)
   > fix!: resolve issue with login page   
   > This commit fixes an issue with the login page that prevented users from logging in.   
   > Closes #123   
