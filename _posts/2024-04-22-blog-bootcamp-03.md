@@ -100,7 +100,7 @@ $ git resotre {filename} or .(whole changes)
 ```   
 → Working Directory에서 변경사항 취소하기
 
-- Unstaging & Remove  
+- Unstaging & Remove
 ```  
 $ git reset HEAD {filename}
 
