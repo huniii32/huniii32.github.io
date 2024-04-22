@@ -100,37 +100,40 @@ $ git resotre {filename} or .(whole changes)
 ```   
 → Working Directory에서 변경사항 취소하기
 
-- Unstaging   
-  ```  
-  $ git reset HEAD {filename}   
+- Unstaging & Remove
+```
+$ git reset HEAD {filename}
 
-  $ git rm -f {filenmae}   
-  ```   
-→ Stage의 변경사항(blob) Working directory로 내리기  
-→ Staging area의 변경사항을 내림과 동시에 삭제  
+$ git rm -f {filename}
+``` 
+→ Stage의 변경사항(blob) Working directory로 내리기   
+→ staging area의 변경사항을 내림과 동시에 삭제   
 
-- Edit commit message   
-```   
-$ git commit --amend    
+- Edit Commit
+```
+$ git commit --amend
 
-$ git rebase -i <commit>   
-$ git rebase --continue   
-```      
-→ 직전 commit message 수정하기   
-→ 이전 commit message 수정하기(예전에 사용하던 커밋) - ❗비추함❗
+$ git rebase -i <commit> 
+$ git rebase --continue (rebase 취소: git rebase --abort)
+```
+→ 직전 commit message 수정하기
+→ 이전 commit message 수정하기
 
-- Revert commit    
-```    
-$ git revert --no-commit HEAD~{nums of commit}..   
-$ git commit  
+- Revert Commit
+```  
+$ git revert --no-commit HEAD~{nums of commit}.. 
+$ git commit   
 $ git push origin <branch>  
+```  
+- {nums of commit}개의 커밋을 되돌린 후 remote <branch>에 push 
+- 잘못하기 직전 시점으로 되돌리고 해당 되돌림의 이력을 팀원들에게 전달하여 어떤 문제가 있었고, 어
+떻게 수행되는지에 대해 뚜렷한 설명 가능
+- commit을 따로 하지 않을 땐 ‘—no-edit’ 
+- merge commit을 되돌릴 땐 ‘-m’   
 
-$ git revert -m {1 or 2} {merge commit id}   
-```    
-→ {nums of commit}개의 커밋을 되돌린 후 remote <branch>에 push   
-→ 잘못하기 직전 시점으로 되돌리고 해당 되돌림의 이력을 팀원들에게 전달하여 어떤 문제가 있었고, 어떻게 수행되는지에 대해 뚜렷한 설명 가능    
-- commit을 따로 하지 않을 땐 ‘—no-edit’   
-- merge commit을 되돌릴 땐 ‘-m’  
+```
+(ex) $ git revert -m {1 or 2} {merge commit id})
+```
 
 ## **총총**
 내가 얻은 것은 크게 두가지이다.  
