@@ -1,5 +1,5 @@
 ---
-title: "Git"
+title: "Git(01)"
 excerpt: "Upstage X FastCampus AI Lab - Git"
 categories:
   - Bootcamp
@@ -12,7 +12,7 @@ toc: true
 toc_sticky: true
 
 date: 2024-04-19
-last_modified_at: 2024-04-19
+last_modified_at: 2024-04-22
 ---
 # 🦥 Git
 
@@ -25,14 +25,14 @@ last_modified_at: 2024-04-19
 
 - ls : 디렉토리 내용 확인 
   - ls -a : 숨김 파일 확인('.' 유닉스 처리 방식)   
-  - ls -l : 상세정보   확인  
+  - ls -l : 상세정보 확인  
   - ls -al : 숨김 파일 상세 확인  
 
-- cd '이름' : 디렉토리 이동  
-- mkdir '이름' : 디렉토리 생성  
-- touch '이름' : text 기반의 파일 생성  
+- cd {name} : 디렉토리 이동  
+- mkdir {name} : 디렉토리 생성  
+- touch {name} : text 기반의 파일 생성  
 
-- mv '파일' '경로' : '경로'로 '파일' 이동  
+- mv {file} {space} : '경로'로 '파일' 이동  
   - mv ../*.py ./ : py 파일을 해당 경로에 이동  
   - .. : 상위 디렉토리  
   - . : 해당 디렉토리    
@@ -52,10 +52,10 @@ last_modified_at: 2024-04-19
 
 ## **Git**
 
-### **1. Git 개념**
-- 분산형 버전관리 시스템(Distributed Version Control System)  
-- 일주일만에 만들었다고한다... ㄷㄷㄷ  
-- 단순한 구조와 빠른 속도!!  
+- **1. Git 개념**
+  - 분산형 버전관리 시스템(Distributed Version Control System)  
+  - 일주일만에 만들었다고한다... ㄷㄷㄷ  
+  - 단순한 구조와 빠른 속도!!  
 → 압도적 업계 1위  
 
 간단하게 Git은 이러한 방식으로 작동한다!  
@@ -63,36 +63,38 @@ last_modified_at: 2024-04-19
 
 ![flow](https://github.com/huniii32/first-repo/assets/164001121/3f19c941-83d1-44b0-979e-2c35bb3c15c0)
 
-### **2. 기본 설정(config)**
+- **기본 설정(config)**
 
-**2.1 gitconfig 편집**
-```
-vi ~/.gitconfig  
-```
+  - gitconfig 편집
+  ```
+  $ vi ~/.gitconfig  
+  ```
 
-**2.2 global 설정**
-```
-git config --global core.autocrlf false  
-git config --global user.name "username"  
-git config --global user.email "email"  
-git config --global core.editor "vim"  
-git config --global core.pager "cat"  
-git config --global alias.lg "log --graph --pretty=tformat:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --decorate=full"  
-```
+  - **global 설정**
+  ```
+  $ git config --global core.autocrlf false  
+  $ git config --global user.name "username"  
+  $ git config --global user.email "email"  
+  $ git config --global core.editor "vim"  
+  $ git config --global core.pager "cat"  
+  $ git config --global alias.lg "log --graph --pretty=tformat:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --decorate=full"  
+  ```
 
-**2.3 repositories 생성**
-1. Name 설정
-2. License 설정
-3. Terimal - git clone '주소'
+  - **repositories 생성**
+  1. Name 설정
+  2. License 설정
+  3. Terimal - git clone '주소'
 
-**2.4 Git 명령어**
-- git status
-- git add
-- git commit
-- git diff '파일'
-- git push origin main
+  - **Git 명령어**
+  ```
+  $ git status
+  $ git add
+  $ git commit
+  $ git diff {filename}
+  $ git push origin main
+  ```
 
-### **3. Converntional Commits**
+### **Converntional Commits**
 - commit의 제목은 commit을 설명하는 문장형이 아닌 구나 절의 형태로 작성
 - importancefcapitalize 'Importance of Capitalize'
 - prefix 달기!!
@@ -106,29 +108,29 @@ git config --global alias.lg "log --graph --pretty=tformat:'%Cred%h%Creset -%C(y
     - chore : 패키지 매니저, 스크립트 등
     - style : 코드 포매팅 관련
 
-**3.1 형태** 
-> {type}: {description} 작업단위 축약(breaking change가 있다면 type 뒤에 !) 
-> {body} 작업 상세 기술  
-> {footer} 부가정보(ex) BREAKING CHANGE: Drop email sign up support
+- **형태** 
+  > {type}: {description} 작업단위 축약(breaking change가 있다면 type 뒤에 !)  
+  > {body} 작업 상세 기술  
+  > {footer} 부가정보(ex) BREAKING CHANGE: Drop email sign up support
 
-예시(1)
-> feat: add sign up component   
-> This commit adds the sign up component to the application.   
-> Closes #123  
+- 예시(1)
+  > feat: add sign up component   
+  > This commit adds the sign up component to the application.   
+  > Closes #123  
 
-예시(2)
-> fix!: resolve issue with login page   
-> This commit fixes an issue with the login page that prevented users from logging in.   
-> Closes #123   
-> BREAKING CHANGE: drop social login support  
+  - 예시(2)
+  > fix!: resolve issue with login page   
+  > This commit fixes an issue with the login page that prevented users from logging in.   
+  > Closes #123   
+  > BREAKING CHANGE: drop social login support  
 
 **강사님께서 정말 강조하셨다!!!!**  
 이러한 방식으로 하지 않으면 아싸취급...? 사회 적응 못함...!! 이런 느낌이다!!  
 지킬건 지키자!!!
 
-### **4. .gitignore**  
+### **.gitignore**  
 
-특정 파일이나 디렉토리를 추적하지 않도록 명시하기 위한 파일  
+  - 특정 파일이나 디렉토리를 추적하지 않도록 명시하기 위한 파일  
 
 (템플릿 참고 사이트)  
 .gitignore file 생성 사이트 : <https://www.toptal.com/developers/gitignore/>  
@@ -155,9 +157,6 @@ git config --global alias.lg "log --graph --pretty=tformat:'%Cred%h%Creset -%C(y
 3. Side Project
     - 짧은 단위의 프로젝트를 자주 수행하여 **생성-완성**까지의 과정을 반복해보자!
 
-
-**참고로 본인은 다음주 예비군간다...4년차...그래도 친구랑 같이 가서 다행ㅋㅋㅋㅋㅋㅋ**
-
 ![fighting](https://github.com/huniii32/first-repo/assets/164001121/740ac834-ef67-47e9-a219-6899c856af07)
----
+
 #패스트캠퍼스 #업스테이지패스트캠퍼스 #AI부트캠프
