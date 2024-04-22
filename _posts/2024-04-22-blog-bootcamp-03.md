@@ -86,26 +86,24 @@ $ git pull origin main
   - deploy, issue에 대응을 하기 쉽도록 한 모델
 
 ![image](https://github.com/huniii32/branch-practice/assets/164001121/acc58b29-2563-4c95-ba05-a21202e68515)
-
+ 
 ## **Trouble-Shoot**
-- Rename
+- Rename   
 ```
 $ mv {filename} to {new_filename}
 ```
 → 파일 이름 or 위치 수정
 
 - Undo  
-```
+```   
 $ git resotr {filename} or .(whole changes)
-```
+```   
 → Working Directory에서 변경사항 취소하기
 
 - Unstaging  
 ```   
-#1
 $ git reset HEAD {filename}
 
-#2
 $ git rm -f {filenmae}
 ```   
 → Stage의 변경사항(blob) Working directory로 내리기  
@@ -113,10 +111,8 @@ $ git rm -f {filenmae}
 
 - Edit commit message
 ```   
-#1
 $ git commit --amend
 
-#2
 $ git rebase -i <commit>
 $ git rebase --continue
 ```    
@@ -125,18 +121,16 @@ $ git rebase --continue
 
 - Revert commit
 ```    
-#1
 $ git revert --no-commit HEAD~{nums of commit}.. 
 $ git commit 
 $ git push origin <branch> 
 
-(ex)
 $ git revert -m {1 or 2} {merge commit id}
 ```    
 → {nums of commit}개의 커밋을 되돌린 후 remote <branch>에 push   
 → 잘못하기 직전 시점으로 되돌리고 해당 되돌림의 이력을 팀원들에게 전달하여 어떤 문제가 있었고, 어떻게 수행되는지에 대해 뚜렷한 설명 가능    
 - commit을 따로 하지 않을 땐 ‘—no-edit’   
-- merge commit을 되돌릴 땐 ‘-m’   
+- merge commit을 되돌릴 땐 ‘-m’  
 
 ## **총총**
 내가 얻은 것은 크게 두가지이다.  
