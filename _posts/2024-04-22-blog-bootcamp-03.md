@@ -94,13 +94,13 @@ $ mv {filename} to {new_filename}
 ```
 → 파일 이름 or 위치 수정
 
-- Undo
+- Undo  
 ```
 $ git resotr {filename} or .(whole changes)
 ```
 → Working Directory에서 변경사항 취소하기
 
-- Unstaging
+- Unstaging  
 ```
 #1
 $ git reset HEAD {filename}
