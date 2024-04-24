@@ -1,161 +1,144 @@
 ---
-title: "Git(02)"
-excerpt: "Upstage X FastCampus AI Lab - Git"
+title: "Statistics(기초)"
+excerpt: "Upstage X FastCampus AI Lab - Statistics"
 categories:
   - Bootcamp
 tags:
-  - [git, bootcamp]
+  - [statistics, bootcamp]
 
-permalink: /bootcamp/bootcamp-03/
+permalink: /bootcamp/bootcamp-04/
 
 toc: true
 toc_sticky: true
 
-date: 2024-04-22
-last_modified_at: 2024-04-22
+date: 2024-04-24
+last_modified_at: 2024-04-24
 ---
-# 🦥 Git
+# 🦥 Statistics(기초)
 
-## **Git Branch**
+## **기초 통계학**  
 
-- 분기점을 생성하여 독립적으로 코드를 변경할 수 있도록 도와주는 모델  
-  &emsp;ex) 스파이더맨 영화를 생각해보자!  
-  &emsp;스파이더맨 1, 2, 3 각각 다른 빌런들이 나온다 - **브런치 생성**        
-  &emsp;그러다가 통합된 스파이더맨 모두가 나오면 편이 나옴 - **브런치 합치기**  
-  &emsp;&emsp;&emsp; **→ 이 모든게 브런치와 비슷함!!!**
+- **평균값**  
+    - 산술평균
+    - 기하평균
+    - 조화평균
 
-![branch](https://github.com/huniii32/branch-practice/assets/164001121/54684367-c1e5-4d2e-ae74-b8c1fc70e097)
+- **중앙값**
+    - 데이터를 크기 순으로 정렬했을 때 가운데에 있는 데이터  
 
-- git branch 
-  ``` 
-  $ git branch -r
-  $ git branch -v
-  $ git branch -a
-  $ git branch {space}
-  $ git branch -D {space}
-  ```
+- **최빈값**
+    - 가장 많이 등장한 데이터  
 
-- git switch
-  ```
-  $ git switch {space}  
-  ```
+(ex)  
+  {1,1,1,2,2,3,3,3,3,3}  
+    - 평균 : 2.2  
+    - 중앙값 : 2.5  
+    - 최빈값 : 3
 
-  **→ 브런치 이동시 확인 및 'ls' 사용하여 파일 확인**  
-  **→ 브런치 다 사용시 바로바로 삭제 하기!!**  
+(참고)  
+![image](https://github.com/huniii32/huniii32.github.io/assets/164001121/49901ad9-a218-47d1-905e-8aedda02d704)  
 
-**😀이것들을 모두 습관으로 만들자!!**  
+- **분산 & 표준편차**  
 
-- git merge  
-  ```   
-  $ git merge {space}   
-  ```    
+- **사분위 범위(IQR)**  
+    - 값을 같은 갯수로 4개로 나는 각각의 값  
+    - 1사분위(Q1) : 25%  
+    - 2사분위(Q2) : 50% = 중앙값  
+    - 3사분위(Q3) : 75%  
+    - 사분위간 범위 : Q3-Q1  
 
-  ```  
-  ✋vim normal mode✋   
-  - dd : 잘라내기   
-  - p : 붙여놓기   
-  ```   
+    ![image](https://github.com/huniii32/huniii32.github.io/assets/164001121/c93080fd-711a-4754-96b4-34408dc7949e)
 
-## **Git Branching Strategy**
-
-- **git flow**
-  - 가장 전통적이고 많이쓰이는 모델
-  - 각 단계가 명확히 구분되어 배포주기가 주기적인 서비스에 유리. 하지만 복잡.. 
-
-![image](https://github.com/huniii32/branch-practice/assets/164001121/9d041269-8c8c-41fb-8280-af90c40cf042)
-
-- **github flow**
-  - 브랜치 모델의 단순화. 
-  - CI 의존성이 높고, pull request가 없으면 실수에 대처가 힘듦
-
-![image](https://github.com/huniii32/branch-practice/assets/164001121/63517b52-964d-43a0-9b3b-d5b19c99811a)
-
-  ```   
-  $ git push -u origin '공간'    
-  ```  
-
-  **→ 올려놓고 Github에서 merge 실행**  
-
-  ```  
-  $ git pull origin main  
-  ```  
-
-  **→ Local Update**
-
-- **gitlab flow**
-  - deploy, issue에 대응을 하기 쉽도록 한 모델
-
-![image](https://github.com/huniii32/branch-practice/assets/164001121/acc58b29-2563-4c95-ba05-a21202e68515)
-
-## **Trouble-Shoot**
-
-- **Rename**
-    ```
-    $ mv {filename} to {new_filename}
-    ```
-    → 파일 이름이나 위치를 수정합니다.
-
-- **Undo**
-    ```
-    $ git restore {filename} or .(whole changes)
-    ```
-    → 작업 디렉토리에서 변경 사항을 취소합니다.
-
-- **Unstaging & Remove**
-    ```
-    $ git reset HEAD {filename}
-
-    $ git rm -f {filename}
-    ```
-    → 스테이지된 변경 사항(blob)을 작업 디렉토리로 내립니다.  
-    → 스테이징 영역의 변경 사항을 내리면서 동시에 삭제합니다.
-
-- **Edit commit message**
-    ```
-    $ git commit --amend
-
-    $ git rebase -i <commit>
-    $ git rebase --continue
-    ```
-    → 직전 커밋 메시지를 수정합니다.  
-    → 이전 커밋 메시지를 수정합니다. (rebase 취소: `git rebase --abort`)
-
-- **Reset commit**
-    ```
-    $ git reset --hard HEAD~{nums of commit}
-    $ git push -f origin <branch>
-    ```
-    → {nums of commit}개의 커밋을 삭제한 후 원격 <branch>로 강제 푸시합니다.  
-    → 협업 시에는 나의 로컬 및 클론한 원격 리포지토리에서 삭제되었다고 해도 다른 곳에 남아있던 이력 때문에 문제가 발생할 수 있습니다.
-
-- **Revert commit**
-    ```
-    $ git revert --no commit HEAD~{nums of commit}..
-    $ git commit
-    $ git push origin <branch>
-    ```
-    → {nums of commit}개의 커밋을 되돌린 후 원격 <branch>로 푸시합니다.  
-    → 잘못하기 직전 시점으로 되돌리고 해당 되돌림의 이력을 팀원들에게 전달하여 어떤 문제가 있었고, 어떻게 수행되는지에 대해 명확하게 설명할 수 있습니다.  
-    - 커밋을 별도로 하지 않을 경우 'no-edit'  
-    - 병합 커밋을 되돌릴 경우 '-m'  
-
-    (예시)
-    ```
-    $ git revert -m {1 or 2} {merge commit id}
-    ```
-
-
-## **총총**
-내가 얻은 것은 크게 두가지이다.  
-1. 로컬과 Github의 파일 관리 방법론?? 매커니즘
-2. 팀 프로젝트시 팀원들과의 협업?? - 이거는 아직 낯설지만, 하다보면 늘어나겠지~~~
-
-아무튼 이 두 부분을 얻어갔다!! 총총총...  
-이제 통계론, 파이썬 EDA 배울텐데 체력 관리 예습!!!! 미리미리 해두자!!  
-몰아쳐서 하면 진짜 힘들다!!!! 제발로!!!!💻
-
-![passion](https://github.com/huniii32/branch-practice/assets/164001121/c27c125a-7207-43df-b776-d6958248a33b)
-
-
+- **변동계수**  
+    - 상대적으로 얼마나 변동이 많은지를 보기 위한 지표  
+    - 단위가 다르거나, 표준편차가 비슷한 그룹끼리 비교하고 싶을 때 일정한 기분에 따라 비교 가능  
+    - **변동계수(CV) = 표준편차/평균  
  
+- **왜도(Skewness) & 첨도(Kurtosis)**  
+    - **왜도**
+        - 분포의 비대칭도를 나타내는 통계량  
+        - 비대칭이 커질수록 왜도의 절대값은 증가  
+        - 일반적으로 왜도가 -1~+1 범위는 치우침이 없는 데이터라 부름  
+
+    ![image](https://github.com/huniii32/huniii32.github.io/assets/164001121/4e5164d0-d8fe-4313-a3f4-4fe4e124b169)
+
+    - **첨도**
+        - 꼬리 부분의 길이와 중앙 부분의 뾰족함을 ㅗ데이터의 분포를 알 수 있음  
+        - Mesokurtic : 정규 분포 모양
+        - Leptokurtic : 중앙 부분은 Mesokurtic보다 높고 뾰족하기 때문에 이상치가 많을수 있음  
+        - PlatyKurtic : Leptokurtic와 반대, 이상치가 없음 → 데이터 다시 확인 필요  
+
+    ![image](https://github.com/huniii32/huniii32.github.io/assets/164001121/28bb91bb-c251-49ac-b5bf-c4d63ebfee8a)
+
+- **모집단**
+    - 확률 표본 추출  
+        - 단순 샘플링 : 단순 랜덤으로 샘플을 추출  
+        - 층화 샘플링 : 모집단을 몇 개의 그룹으로 나누어 각 그룹에서 랜덤으로 n개씩 추출  
+        - 계통 샘플링 : 모집단 데이터에서 1~n개의 번호를 임의로 매긴 다음 일정 간격마다 데이터 추출  
+        - 군집 샘플링 : Cluster로 모집단 데이터로 분할하고, 군집 중 하나 or 여러개의 군집을 선정, 선정된 군집의 전체 데이터 사용  
+
+        ![image](https://github.com/huniii32/huniii32.github.io/assets/164001121/de0716b1-920c-44f8-a4a8-e44c04b835cd)
+
+- **정규분포 & 중심극한정리**  
+    - **정규분포**
+        - 연속 확률 분포 중에서 가장 많이 사용  
+        - 평균에 대해서 좌우 대칭, 평균에서 최대값, 종모양  
+        - 자연 현상이나 사회 여러 현상들이 정규 분포를 따름  
+        - 평균과 표준편차에 의해 결정됨  
+
+        ![image](https://github.com/huniii32/huniii32.github.io/assets/164001121/bc69f65f-53d2-4b30-9155-6dad605a0a99)
+
+    - **중심극한정리**
+        - **표본의 크기가 커질수록** 표본 평균의 분포는 모집단의 **분포 모양과는 관계없이 정규분포에 가까워짐**  
+        - 표본 평균의 평균은 모집단의 모평균과 같고, 표본 평균의 표준 편차는 모집단의 모 표준 편차를 표본 크기의 제곱근으로 나눈 것과 같음  
+
+        ![image](https://github.com/huniii32/huniii32.github.io/assets/164001121/686a288a-e760-46a5-83e8-2b470c8c578c)
+
+- **카이제곱분포**
+  - 검정 통계량이 카이제곱 분포를 따르느 통계 검정에 사용  
+  - **분산의 특징**을 확률 분포로 만든 것  
+  - 분포는 자유도에 의해 정의  
+  - 모분산을 구하는 것  
+  - 카이제곱 분포의 자유도가 높을수록 정규 분포에 근접  
+  - y-skewed(y축에 편향된) 분포  
+  - 제곱된 값의 분산을 다루기 때문에 → -값은 존재하지 않고 +값만 존재  
+
+  ![image](https://github.com/huniii32/huniii32.github.io/assets/164001121/69cca972-7c4a-48b6-90c2-cf3c8d8b9268)
+
+- **스튜던트 t분포**
+    - **모분산이 알려져 있지 않고 소규모 표본**인 경우에 쓸 수 있는 새로운 분포 개발  
+    - 정규 분포와 생김새가 비슷 but 꼬리 부분이 더 두껍고 길게 생김  
+    - 표본의 크기가 30 이하인 경우 t분포 사용  
+    - t분포가 널리 적용되는 이유 : 중심극한정리 → **표본통계량**은 보통 정규분포를 따름  
+    - t분포는 표본평균, 두 표본평균 사이의 차이, 회귀 파라미터 등의 분포를 위한 기준으로 사용함  
+
+    ![image](https://github.com/huniii32/huniii32.github.io/assets/164001121/28d190c7-9e50-4eff-b3fb-66e2025fac8c)
+
+- **F분포**
+    - 스튜던트 t분포는 집단 3개 이상은 검정이 불가함 → F분포로 검정  
+    - 집단간의 분산을 다룸  
+    - 분산분석에 주로 사용함  
+    - F = 집단 **간** 분산 / 집단 **내** 분산  
+
+    ![image](https://github.com/huniii32/huniii32.github.io/assets/164001121/585a67a5-8f77-4cae-9da1-30ded1066b3b)
+
+- **분산분석**  
+    - 3개 이상의 다수 집간을 비교할 때 사용하는 검정 방법  
+    - F분포 사용(집단 간 분산 / 집단 내 분산)  
+    - 등분산성 가정  
+        - 집단 내 분산이 서로 비슷한가? 비슷해야 비교 가능  
+    - 검정 순서  
+        - Omnubus F검정
+            - F값이 큰가? 차이가 있는가?
+        - post hoc검정  
+            - 구체적으로 얼마나 차이가 나는가?  
+
+    ![image](https://github.com/huniii32/huniii32.github.io/assets/164001121/4a064633-2a72-4ccf-8140-91e3b50358d6)
+    ![image](https://github.com/huniii32/huniii32.github.io/assets/164001121/8b44f782-2b6d-4608-ba40-6e89b38c5086)
+
+
+
+
+
+
 #패스트캠퍼스 #업스테이지패스트캠퍼스 #AI부트캠프
