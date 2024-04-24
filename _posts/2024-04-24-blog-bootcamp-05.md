@@ -26,7 +26,7 @@ last_modified_at: 2024-04-22
 
 ![branch](https://github.com/huniii32/branch-practice/assets/164001121/54684367-c1e5-4d2e-ae74-b8c1fc70e097)
 
-- **git branch**   
+- git branch 
   ``` 
   $ git branch -r
   $ git branch -v
@@ -35,7 +35,7 @@ last_modified_at: 2024-04-22
   $ git branch -D {space}
   ```
 
-- **git switch** 
+- git switch
   ```
   $ git switch {space}  
   ```
@@ -45,7 +45,7 @@ last_modified_at: 2024-04-22
 
 **😀이것들을 모두 습관으로 만들자!!**  
 
-- **git merge**  
+- git merge  
   ```   
   $ git merge {space}   
   ```    
