@@ -14,9 +14,34 @@ toc_sticky: true
 date: 2024-04-24
 last_modified_at: 2024-04-24
 ---
-# 🦥 Statistics(기초)
+# 🦥 확률과 통계
+## **Permutation & Combination**
 
-## **기초 통계학**  
+- **합의 법칙 & 곱의 법칙**  
+    - 합의 법칙 : 두 사건 A와 B가 상호 배타적일 때, 동시에 발생할 수 없을때, 사건 A가 일어나는 경우의 수(M)이고, 사건 B가 일어나는 경우의수(N)이면, 사건 A OR B가 일어나는 경우의수는 **M+N**  
+    - 곱의 법칙 : 두 **독립 사건** A와 B가 있을 때, 사건 A가 일어나는 경우의 수(M)이고, 사건 A의 각각의 결과에 대하여 독립적으로 사건 B가 일어나는 경우의 수(B)이면, 두 사건 A와 B가 동시에 일어나는 경우의 수는 **M×N**
+
+- **순열**  
+    - 서로 다른 N개에서 서로 다른 r개를 선택하여 일렬로 나열하는 것을 n개에서 r개를 택한 순열이라 함  
+
+    ![image](https://github.com/huniii32/huniii32.github.io/assets/164001121/0e996fa4-40d3-4628-9950-0b74089d3490)    
+    ![image](https://github.com/huniii32/huniii32.github.io/assets/164001121/b03dba1c-83b6-45b5-89ee-716740a082fe)  
+
+- **팩토리얼**
+    - 1~n까지 자연수를 차례로 곱한 것을 N팩토리얼이라 하며, **N!**로 나타냄  
+
+    ![image](https://github.com/huniii32/huniii32.github.io/assets/164001121/1dc53d19-c802-40ac-9a38-86a4fd74aaa1)  
+
+- **조합**  
+    - 서로 다른 n개(순서를 생각 X) r개를 선택하는 것을 n개에서 r개를 택한 조합이라 함  
+    - 서로 다른 𝒏개에서 𝒓(𝟎 < 𝒓 ≤ 𝒏)개를 선택하는 조합의수는 **𝒏𝑪𝒓**이고, 그 각각에 대하여 𝒓개를 일렬로 나열하는 경우의수는 **𝒓!**이라고 할 수 있음  
+    - 서로 다른 𝒏개에서 𝒓(𝟎 < 𝒓 ≤ 𝒏)개를 선택하여 **일렬로 나열**하는 순열의 수는 **𝒏𝑷𝒓**이므로 **곱의법칙**에 의하여 다음과 그림과 같이 성립 함  
+
+    ![image](https://github.com/huniii32/huniii32.github.io/assets/164001121/83be2df0-eb8b-49c9-989a-18abee67d54d)
+
+## **Probability Basics**  
+
+## **Statistics Basic**  
 
 - **평균값**  
     - 산술평균

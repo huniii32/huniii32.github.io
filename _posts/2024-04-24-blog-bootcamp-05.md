@@ -12,9 +12,10 @@ toc: true
 toc_sticky: true
 
 date: 2024-04-24
-last_modified_at: 2024-04-24
+last_modified_at: 2024-04-25
 ---
 # 🦥 Statistics
+
 
 ## **가설**
 - **귀무가설**  
