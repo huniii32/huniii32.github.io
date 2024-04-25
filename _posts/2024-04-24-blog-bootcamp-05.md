@@ -67,5 +67,5 @@ last_modified_at: 2024-04-24
 - **가설검정의 절차**  
 ![절차](https://github.com/huniii32/huniii32.github.io/assets/164001121/e9ce575c-ec50-4df5-9a81-8eccb2258122)
 
- 
+## **💻Insight💻**
 #패스트캠퍼스 #업스테이지패스트캠퍼스 #AI부트캠프

@@ -29,16 +29,17 @@ last_modified_at: 2024-04-24
 - **최빈값**
     - 가장 많이 등장한 데이터  
 
-(ex)  
-  {1,1,1,2,2,3,3,3,3,3}  
-    - 평균 : 2.2  
-    - 중앙값 : 2.5  
-    - 최빈값 : 3
+&emsp;(ex)  
+&emsp;&emsp;{1,1,1,2,2,3,3,3,3,3}  
+&emsp;&emsp;- 평균 : 2.2  
+&emsp;&emsp;- 중앙값 : 2.5  
+&emsp;&emsp;- 최빈값 : 3
 
-(참고)  
-![image](https://github.com/huniii32/huniii32.github.io/assets/164001121/49901ad9-a218-47d1-905e-8aedda02d704)  
+&emsp;**(참고)**  
+&emsp;![image](https://github.com/huniii32/huniii32.github.io/assets/164001121/49901ad9-a218-47d1-905e-8aedda02d704)  
 
 - **분산 & 표준편차**  
+    - 자료의 밀집과 퍼짐 정도를 나타냄
 
 - **사분위 범위(IQR)**  
     - 값을 같은 갯수로 4개로 나는 각각의 값  
@@ -133,12 +134,46 @@ last_modified_at: 2024-04-24
         - post hoc검정  
             - 구체적으로 얼마나 차이가 나는가?  
 
-    ![image](https://github.com/huniii32/huniii32.github.io/assets/164001121/4a064633-2a72-4ccf-8140-91e3b50358d6)
-    ![image](https://github.com/huniii32/huniii32.github.io/assets/164001121/8b44f782-2b6d-4608-ba40-6e89b38c5086)
+    ![image](https://github.com/huniii32/huniii32.github.io/assets/164001121/4a064633-2a72-4ccf-8140-91e3b50358d6)  
+    ![image](https://github.com/huniii32/huniii32.github.io/assets/164001121/8b44f782-2b6d-4608-ba40-6e89b38c5086)  
 
+- **단순 선형회귀분석**  
+    - 'go back to an earlier and worse condition'  
+    - 독립변수(x)로 종속변수(y)를 예측하는 것  
+        - 독립변수(Independent Variable) : 영향을 미칠 것으로 생각되는 변수  
+        - 종속변수(Dependent Variable) : 영향을 받을 것으로 생각되는 변수  
+        - 회귀계수(Coefficient) : 기울기와 절편  
 
+    ![image](https://github.com/huniii32/huniii32.github.io/assets/164001121/b3366238-910d-420a-931b-796f69e7275d)  
 
+- **다중 선형회귀분석**  
+    - 여러 원인이 존재하는 경우에 대해 여러 독립 변수를 준비하고 종속변수 y를 설명하는 회귀 방정식을 만들어야함  
 
+        ![image](https://github.com/huniii32/huniii32.github.io/assets/164001121/f1ead466-acf0-448e-b6ef-9fb90371e49a)
+
+    - 다중 회귀분석은 하나의 결과를 여러 원인으로 설명하기 위한 분석 방법  
+    - 각 계수를 결정해야함
+        
+        ![image](https://github.com/huniii32/huniii32.github.io/assets/164001121/43fe8a6a-6373-4774-897d-f9018a9a2694)  
+
+        - 결경계수(R-Squared)  
+            - 독립변수가 종속변수를 얼마만큼 설명해주는지 가리키는 지표  
+            - 0.5라고 하면 독립변수가 종속변수의 50% 정도를 설명함  
+            - 몇 퍼센트 이상이 실질적으로 유용하다고 말하기는 어렵다, 어떤 분야에 따라 다름(일반적으로 20% ↑)  
+            - SSE(Explanied Sum of Squares): 추정값에서 관측값의 평균을 빼고 총 합  
+            - SSR(Residual Sum of Squares) : 관측값에서 추정값을 뺀, 잔차의 총 합  
+            - SST(Total Sum of Squares) : 관측값에서 관측값의 평균을 뺀 결과들의 총 합  
+
+            ![image](https://github.com/huniii32/huniii32.github.io/assets/164001121/7b1469f9-2b63-4cdc-8129-d4373d51cf15)  
+
+## **💻Insight💻**
+빅분기 필기 시험 내용과 같은 부분이 많아 복습한다 생각하여 진행하는 시간이였다!!!😀  
+용어와 개념적인 부분을 확인했다면 이제는 깊이있는 내용과 세부사항들을 살펴볼 예정이다!!  
+수학을 잘 못하여 여러번 복습과 이해하도록 해야겠다....😶
+
+![image](https://github.com/huniii32/huniii32.github.io/assets/164001121/4e94417d-1042-4b16-b39a-6dc48a5ab120)  
+
+**통계 딱대라잉!!!!**
 
 
 #패스트캠퍼스 #업스테이지패스트캠퍼스 #AI부트캠프
