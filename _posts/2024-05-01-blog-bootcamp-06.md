@@ -2,7 +2,7 @@
 title: "Python-EDA"
 excerpt: "Upstage X FastCampus AI Lab - Python-EDA"
 categories:
-  - [Bootcamp, Python]
+  - Bootcamp
 tags:
   - [python, bootcamp]
 
