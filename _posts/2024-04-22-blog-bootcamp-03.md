@@ -27,7 +27,7 @@ last_modified_at: 2024-04-22
 ![branch](https://github.com/huniii32/branch-practice/assets/164001121/54684367-c1e5-4d2e-ae74-b8c1fc70e097)
 
 - **git branch**   
-  ```bash 
+  ```
   $ git branch -r
   $ git branch -v
   $ git branch -a
@@ -36,7 +36,7 @@ last_modified_at: 2024-04-22
   ```
 
 - **git switch** 
-  ```bash
+  ```
   $ git switch {space}  
   ```
 
@@ -46,11 +46,11 @@ last_modified_at: 2024-04-22
 **😀이것들을 모두 습관으로 만들자!!**  
 
 - **git merge**  
-  ```bash   
+  ```   
   $ git merge {space}   
   ```    
 
-  ```bash  
+  ```
   ✋vim normal mode✋   
   - dd : 잘라내기   
   - p : 붙여놓기   
@@ -70,13 +70,13 @@ last_modified_at: 2024-04-22
 
 ![image](https://github.com/huniii32/branch-practice/assets/164001121/63517b52-964d-43a0-9b3b-d5b19c99811a)
 
-  ```bash   
+  ```   
   $ git push -u origin '공간'    
   ```  
 
   **→ 올려놓고 Github에서 merge 실행**  
 
-  ```bash  
+  ```  
   $ git pull origin main  
   ```  
 
@@ -90,19 +90,19 @@ last_modified_at: 2024-04-22
 ## **Trouble-Shoot**
 
 - **Rename**
-    ```bash
+    ```
     $ mv {filename} to {new_filename}
     ```
     → 파일 이름이나 위치를 수정합니다.
 
 - **Undo**
-    ```bash
+    ```
     $ git restore {filename} or .(whole changes)
     ```
     → 작업 디렉토리에서 변경 사항을 취소합니다.
 
 - **Unstaging & Remove**
-    ```bash
+    ```
     $ git reset HEAD {filename}
 
     $ git rm -f {filename}
@@ -111,7 +111,7 @@ last_modified_at: 2024-04-22
     → 스테이징 영역의 변경 사항을 내리면서 동시에 삭제합니다.
 
 - **Edit commit message**
-    ```bash
+    ```
     $ git commit --amend
 
     $ git rebase -i <commit>
@@ -121,7 +121,7 @@ last_modified_at: 2024-04-22
     → 이전 커밋 메시지를 수정합니다. (rebase 취소: `git rebase --abort`)
 
 - **Reset commit**
-    ```bash
+    ```
     $ git reset --hard HEAD~{nums of commit}
     $ git push -f origin <branch>
     ```
@@ -129,7 +129,7 @@ last_modified_at: 2024-04-22
     → 협업 시에는 나의 로컬 및 클론한 원격 리포지토리에서 삭제되었다고 해도 다른 곳에 남아있던 이력 때문에 문제가 발생할 수 있습니다.
 
 - **Revert commit**
-    ```bash
+    ```
     $ git revert --no commit HEAD~{nums of commit}..
     $ git commit
     $ git push origin <branch>
@@ -140,7 +140,7 @@ last_modified_at: 2024-04-22
     - 병합 커밋을 되돌릴 경우 '-m'  
 
     (예시)
-    ```bash
+    ```
     $ git revert -m {1 or 2} {merge commit id}
     ```
 
