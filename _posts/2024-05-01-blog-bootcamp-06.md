@@ -97,7 +97,7 @@ last_modified_at: 2024-05-01
   v1 / v2
 
   # dot product
-  v1 @ v2
+  v1 @ v2 
   ```
 
 - **Broadcast & Universal Function**
@@ -203,6 +203,7 @@ last_modified_at: 2024-05-01
 2. 다양한 함수들을 사용해 봤다...내가 모르는게 많구나....  
 
 마음 다잡고 열심히 해봅세!!!  
+
 
 ![image](https://github.com/huniii32/huniii32.github.io/assets/164001121/5d673e3d-e228-48c3-ba1a-7e13bf0994d3)
 
