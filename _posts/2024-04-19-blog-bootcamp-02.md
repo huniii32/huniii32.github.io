@@ -12,7 +12,7 @@ toc: true
 toc_sticky: true
 
 date: 2024-04-19
-last_modified_at: 2024-04-22
+last_modified_at: 2024-05-14
 ---
 # 🦥 Git
 
@@ -65,7 +65,7 @@ last_modified_at: 2024-04-22
 - **기본 설정(config)**
 
   - **gitconfig 편집**  
-  ```
+  ```bash
   $ vi ~/.gitconfig  
   ```
 
@@ -108,9 +108,11 @@ last_modified_at: 2024-04-22
     - style : 코드 포매팅 관련
 
 - **형태** 
-  > {type}: {description} 작업단위 축약(breaking change가 있다면 type 뒤에 '!' 넣기)  
+  > {type}: {description} 작업단위 축약   
   > {body} 작업 상세 기술  
-  > {footer} 부가정보(ex) BREAKING CHANGE: Drop email sign up support
+  > {footer} 부가정보  
+  
+  → (ex) BREAKING CHANGE: Drop email sign up support
 
 - **예시(1)**
   > feat: add sign up component   
@@ -122,6 +124,8 @@ last_modified_at: 2024-04-22
   > This commit fixes an issue with the login page that prevented users from logging in.   
   > Closes #123   
   > BREAKING CHANGE: drop social login support  
+  
+  → breaking change가 있다면 type 뒤에 '!' 넣기  
 
 **강사님께서 정말 강조하셨다!!!!**  
 이러한 방식으로 하지 않으면 아싸취급...? 사회 적응 못함...!! 이런 느낌이다!!  
