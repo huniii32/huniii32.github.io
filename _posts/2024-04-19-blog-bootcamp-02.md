@@ -18,7 +18,6 @@ last_modified_at: 2024-04-22
 
  **!!!! ✋잠깐✋ !!!!** 
 
-
 ## **UNIX 명령어**  
 
 - pwd : 현재 디렉토리 경로 확인  
@@ -42,12 +41,12 @@ last_modified_at: 2024-04-22
 
 - mv LICENSE ./license.txt : LICENSE를 해당 디렉토리에 license.txt 이름으로 이동(변경)  
 
-- rm '파일' : '파일' 삭제   
+- rm {file} : '파일' 삭제   
   - rm -rf '디렉토리' : 디렉토리 삭제 
 
-- vi '파일' : 파일 편집기
+- vi {file} : 파일 편집기
 
-- cat '파일' : 파일 내용 확인  
+- cat {file} : 파일 내용 확인  
 
 
 ## **Git**
@@ -65,13 +64,13 @@ last_modified_at: 2024-04-22
 
 - **기본 설정(config)**
 
-  - gitconfig 편집
+  - **gitconfig 편집**  
   ```
   $ vi ~/.gitconfig  
   ```
 
   - **global 설정**
-  ```
+  ```bash
   $ git config --global core.autocrlf false  
   $ git config --global user.name "username"  
   $ git config --global user.email "email"  
@@ -86,7 +85,7 @@ last_modified_at: 2024-04-22
   3. Terimal - git clone '주소'
 
   - **Git 명령어**
-  ```
+  ```bash
   $ git status
   $ git add
   $ git commit
@@ -109,16 +108,16 @@ last_modified_at: 2024-04-22
     - style : 코드 포매팅 관련
 
 - **형태** 
-  > {type}: {description} 작업단위 축약(breaking change가 있다면 type 뒤에 !)  
+  > {type}: {description} 작업단위 축약(breaking change가 있다면 type 뒤에 '!' 넣기)  
   > {body} 작업 상세 기술  
   > {footer} 부가정보(ex) BREAKING CHANGE: Drop email sign up support
 
-- 예시(1)
+- **예시(1)**
   > feat: add sign up component   
   > This commit adds the sign up component to the application.   
   > Closes #123  
 
-- 예시(2)
+- **예시(2)**
   > fix!: resolve issue with login page   
   > This commit fixes an issue with the login page that prevented users from logging in.   
   > Closes #123   
@@ -129,13 +128,11 @@ last_modified_at: 2024-04-22
 지킬건 지키자!!!
 
 ### **.gitignore**  
-
   - 특정 파일이나 디렉토리를 추적하지 않도록 명시하기 위한 파일  
 
 (템플릿 참고 사이트)  
 .gitignore file 생성 사이트 : <https://www.toptal.com/developers/gitignore/>  
 이곳을 잘 활용해보자!  
-
 
 ## **Git Blog**
 내가 하던 부분이라 패스하겠음!!!  
