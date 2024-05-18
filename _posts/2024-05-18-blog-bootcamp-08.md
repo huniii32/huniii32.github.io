@@ -1,5 +1,5 @@
 ---
-title: "Python-EDA"
+title: "Coding Test-"
 excerpt: "Upstage X FastCampus AI Lab - Python-EDA"
 categories:
   - Bootcamp
