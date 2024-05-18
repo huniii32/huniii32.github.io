@@ -1,5 +1,5 @@
 ---
-title: "Python-EDA"
+title: "Python-EDA(Numpy)"
 excerpt: "Upstage X FastCampus AI Lab - Python-EDA"
 categories:
   - Bootcamp
