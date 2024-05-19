@@ -9,14 +9,7 @@ main:
   - title: "GitHub"
     url: https://github.com/huniii32
 
-  # - title: "Projects"
-  #   url: /projects/
-
-  # - title: "Categories"
-  #   url: /categories/
-
 # sidebar navigation (categories)
-# 2022.02.15 sidebar update : simple ver.
 categories:
   - title: "AI"
     url: /categories/ai/
@@ -26,3 +19,6 @@ categories:
     url: /categories/bootcamp/
   - title: "Blog"
     url: /categories/blog/
+
+  # - title: "Categories"
+  #   url: /categories/
