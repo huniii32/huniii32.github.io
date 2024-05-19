@@ -20,6 +20,7 @@ last_modified_at: 2024-05-19
 - **중첩 함수**  
     - 어떤 함수 안에 정의도니 함수 객체를 의미함  
     - 예시
+
         ```python
         def say(text): # 외부 함수
             print("hello")
@@ -28,10 +29,12 @@ last_modified_at: 2024-05-19
             hello()
         say()
         ```   
+        
     - 사용하는 이유  
         1. 간결한 코드 작성  
             - 외부 함수에서 만든 객체에 내부 함수가 접근할 수 있도록 만들어 코드를 간결하게 함
             - 예시  
+            
                 ```python
                 def sum_of_n_list():
                     n_list = [5, 2, 7, 3, 9]
@@ -44,7 +47,9 @@ last_modified_at: 2024-05-19
                     return get_sum()
                 print(sum_of_n_list())
                 ```  
-                > get_sum()에서 sum_of_list()의 리스트 n_list를 접근 가능하여 외부에서 따로 get_sum()을 선언하지 않고도 코드를 쓸 수 있음
+                > get_sum()에서 sum_of_list()의 리스트 n_list를 접근 가능하여  
+                > 외부에서 따로 get_sum()을 선언하지 않고도 코드를 쓸 수 있음
+                
         2. 클로저
             - 외부 함수에서 정의된 데이터를 외부 함수가 종료 되었음에도, 그 데이터를 사용할 수 있는 중첩된 함수 객체를 의미함  
             - 클로저가 되기 위한 조건 3가지  
@@ -52,6 +57,7 @@ last_modified_at: 2024-05-19
                 2. 외부 함수의 변수(프리 변수)를 반드시 참조할 것  
                 3. 외부 함수가 내부 함수를 반환할 것 
             - 예시
+                
                 ```python
                 def greeting(): # 외부 함수
                     s = 'good'
@@ -66,11 +72,14 @@ last_modified_at: 2024-05-19
                 > greeting은 외부 함수, 호출되면 함수 hello를 변수 g에 반환함  
                 > 이때 hello는 외부 변수 s를 참조해서 새로운 문자열 greet를 반환함  
                 > hello는 클로저가 됨  
+                
             - ❌코딩 테스트에서 실질적으로 사용하지 않음❌  
+            
     - ❗주의 사항❗  
         - 외부 함수에서 참조하는 변수는 변경이 불가함  
         - 외부 변수에 접근 가능하지만, 직접적으로 수정은 불가함  
         - 예시  
+        
             ```python
             def compute():
                 a = 5
@@ -80,9 +89,10 @@ last_modified_at: 2024-05-19
                     a = a * x + b # 예외 상황 발생(외부 변수 a 변경 시도)
                     return result
                 return linear_comb()
-            ```  
+            ```
 
-            - nonlocal 명령어 사용 : 외부 변수에 대한 수정을 가능하게 해줌  
+            - nonlocal 명령어 사용 : 외부 변수에 대한 수정을 가능하게 해줌   
+            
             ```python
             def compute():
                 a = 5
@@ -98,6 +108,7 @@ last_modified_at: 2024-05-19
             ```  
 
             - global 명령어 사용 : 특정 변수를 전역 변수로 설정  
+            
             ```python
             def foo():
                 global a # global a = 1(x)
@@ -114,6 +125,7 @@ last_modified_at: 2024-05-19
 - **함수를 통한 자유로운 데이터 전달과 반환**  
     1. 반환 개수에 대한 제한이 없음  
     2. 다른 언어에 비해 데이터 이동에 대한 제약이 적음!!
+
         ```python
         def return_lots_of_result():
             result1 = 0
@@ -164,6 +176,7 @@ last_modified_at: 2024-05-19
         → **Base Case**를 설정 해줘야 함    
     - 문제의 종류    
         - **팩토리얼**  
+
             ```python  
             def factorial(n):
                 if n == 1:  
@@ -174,6 +187,7 @@ last_modified_at: 2024-05-19
             > Base Case : $$f(1) = 1$$  
           
         - **피보나치**  
+        
             ```python
             def fibo(n):
                 if n == 1 or n == 2:  
@@ -187,10 +201,11 @@ last_modified_at: 2024-05-19
 
     - ❗추가❗  
         - 재귀 한도 구하기  
-        ```python
-        import sys 
-        print(sys.getrecursionlimit())
-        ```
+        
+            ```python
+            import sys 
+            print(sys.getrecursionlimit())
+            ```
 
 ## **💻Insight💻**  
 1. **특정 알고리즘**은 그냥 외우는 게 좋아 보인다!!!  
