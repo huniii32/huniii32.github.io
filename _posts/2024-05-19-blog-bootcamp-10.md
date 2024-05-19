@@ -80,7 +80,7 @@ last_modified_at: 2024-05-19
                     a = a * x + b # 예외 상황 발생(외부 변수 a 변경 시도)
                     return result
                 return linear_comb()
-            ```  
+            ```
 
             - nonlocal 명령어 사용 : 외부 변수에 대한 수정을 가능하게 해줌  
             ```python
@@ -88,14 +88,13 @@ last_modified_at: 2024-05-19
                 a = 5
                 b = 9
                 def linear_comb(x):
-                    nonlocal a 
-                    a = a * x + b # nonlocal 명령어
-                    return a
+                    nonlocal a
+                    a = a * x + b      # nonlocal 명령어로 return a
                 return linear_comb
-            
+
             f = compute()
             print(f(5))
-            ```  
+            ```
 
             - global 명령어 사용 : 특정 변수를 전역 변수로 설정  
             ```python
@@ -107,7 +106,7 @@ last_modified_at: 2024-05-19
             foo()
             a += 1
             print("외부 :", a)
-            ```  
+            ```
             > 함수에서 선언된 변수를 외부에서도 접근 가능하도록 만듦  
             > global를 지정함과 동시에 할당은 불가함  
         
