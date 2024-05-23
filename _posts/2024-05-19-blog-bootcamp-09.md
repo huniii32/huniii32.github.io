@@ -24,7 +24,7 @@ last_modified_at: 2024-05-19
         ```python
         def say(text): # 외부 함수
             print("hello")
-            def hello(): # 내부 함수
+            def hello(): # 내부 함수 
                 print("안녕하세요")
             hello()
         say()
