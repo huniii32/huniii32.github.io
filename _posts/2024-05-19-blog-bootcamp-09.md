@@ -91,23 +91,9 @@ last_modified_at: 2024-05-19
                 return linear_comb()
             ```
 
-        - nonlocal 명령어 사용 : 외부 변수에 대한 수정을 가능하게 해줌  
+            - nonlocal 명령어 사용 : 외부 변수에 대한 수정을 가능하게 해줌   
 
-            ```python
-            def compute():
-                a = 5
-                b = 9
-                def linear_comb(x):
-                    nonlocal a 
-                    a = a * x + b # nonlocal 명령어
-                    return a
-                return linear_comb
-            
-            f = compute()
-            print(f(5))
-            ```  
-
-        - global 명령어 사용 : 특정 변수를 전역 변수로 설정  
+            - global 명령어 사용 : 특정 변수를 전역 변수로 설정  
             
             ```python
             def foo():
