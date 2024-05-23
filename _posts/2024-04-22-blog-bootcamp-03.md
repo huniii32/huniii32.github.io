@@ -23,7 +23,7 @@ last_modified_at: 2024-05-14
   &emsp;스파이더맨 1, 2, 3 각각 다른 빌런들이 나온다 - **브런치 생성**         
   &emsp;그러다가 통합된 스파이더맨 모두가 나오면 편이 나옴 - **브런치 합치기**  
   &emsp;&emsp;&emsp; **→ 이 모든게 브런치와 비슷함!!!**
-
+ 
   ![branch](https://github.com/huniii32/branch-practice/assets/164001121/54684367-c1e5-4d2e-ae74-b8c1fc70e097)
 
 - **git branch**   

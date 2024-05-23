@@ -22,7 +22,7 @@ last_modified_at: 2024-05-02
 3. **대용량 array**인 경우에 for문을 직접 사용하는 것보다 **내부적으로 정의된 연산**을 사용하는게 더 빠르다.    
 4. 생성 후에 **크기 변경이 불가**능하다.  
 
-## **Numpy 문법**
+## **Numpy 문법** 
 - **library**  
   ```python
   import numpy as np
