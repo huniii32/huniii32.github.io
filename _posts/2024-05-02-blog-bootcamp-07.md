@@ -1,6 +1,6 @@
 ---
-title: "Python-EDA(Pandas)"
-excerpt: "Upstage X FastCampus AI Lab - Python-EDA"
+title: "Python-EDA (Pandas)"
+excerpt: "Upstage X FastCampus AI Lab - Python EDA"
 categories:
   - Bootcamp
 tags:

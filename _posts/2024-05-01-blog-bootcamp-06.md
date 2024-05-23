@@ -1,6 +1,6 @@
 ---
-title: "Python-EDA(Numpy)"
-excerpt: "Upstage X FastCampus AI Lab - Python-EDA"
+title: "Python-EDA [Numpy]"
+excerpt: "Upstage X FastCampus AI Lab - Python EDA"
 categories:
   - Bootcamp
 tags:
@@ -18,12 +18,12 @@ last_modified_at: 2024-05-02
 
 ## **Numpy 특징**
 1. 모든 원소의 **dtype이 같다.**  
-2. 연산의 의미가 조금 다르다. **(broadcasting)**  
+2. 연산의 의미가 조금 다르다. **(Broadcasting)**  
 3. **대용량 array**인 경우에 for문을 직접 사용하는 것보다 **내부적으로 정의된 연산**을 사용하는게 더 빠르다.    
 4. 생성 후에 **크기 변경이 불가**능하다.  
 
 ## **Numpy 문법**
-- **libaray**  
+- **library**  
   ```python
   import numpy as np
   ```
@@ -183,6 +183,7 @@ last_modified_at: 2024-05-02
     # 최대값이 있는 Index
     np.argmax(mat2, axis=0)
     ```
+
 - **Numpy dtype**
   ```python
   print(f"int4 : -{2**3} ~ {2**3 - 1}")
@@ -196,7 +197,6 @@ last_modified_at: 2024-05-02
   > int16 : -32768 ~ 32767  
   > int32 : -2147483648 ~ 2147483647  
   > int64 : -9223372036854775808 ~ 9223372036854775807  
-
 
 ## **💻Insight💻**
 1. 데이터 분석을 위한 라이브러리 numpy에 대해 다지는 시간이였다!  

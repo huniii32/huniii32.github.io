@@ -1,6 +1,6 @@
 ---
-title: "Statistics(기초)"
-excerpt: "Upstage X FastCampus AI Lab - Statistics"
+title: "Statistics 기초"
+excerpt: "Upstage X FastCampus AI Lab - Statistics 기초"
 categories:
   - Bootcamp
 tags:
@@ -78,7 +78,7 @@ last_modified_at: 2024-04-24
 - **변동계수**  
     - 상대적으로 얼마나 변동이 많은지를 보기 위한 지표  
     - 단위가 다르거나, 표준편차가 비슷한 그룹끼리 비교하고 싶을 때 일정한 기분에 따라 비교 가능  
-    - **변동계수(CV) = 표준편차/평균  
+    - **변동계수\(CV\) = 표준편차/평균**  
  
 - **왜도(Skewness) & 첨도(Kurtosis)**  
     - **왜도**

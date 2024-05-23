@@ -1,6 +1,6 @@
 ---
-title: "Git(02)"
-excerpt: "Upstage X FastCampus AI Lab - Git"
+title: "Git 심화"
+excerpt: "Upstage X FastCampus AI Lab - Git 심화"
 categories:
   - Bootcamp
 tags:
