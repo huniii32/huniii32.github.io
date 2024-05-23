@@ -16,6 +16,6 @@ last_modified_at: 2024-05-02
 ---
 # 🦥 Python-EDA
 
-## **Pandas**
+## **Pandas** 
 
 #패스트캠퍼스 #업스테이지패스트캠퍼스 #AI부트캠프
