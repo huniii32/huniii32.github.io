@@ -10,6 +10,7 @@ main:
     url: https://github.com/huniii32
 
 # sidebar navigation (categories)
+categories:
 - title: AI
   children:
     title: "Machine learning(ML)"
