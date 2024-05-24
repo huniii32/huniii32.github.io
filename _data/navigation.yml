@@ -10,16 +10,10 @@ main:
     url: https://github.com/huniii32
 
 # sidebar navigation (categories)
-- title: "AI"
+- title: AI
   children:
     title: "Machine learning(ML)"
     url: /categories/machine-learning/
-- title: "Python"
-  url: /categories/python/
-- title: "Bootcamp"
-  url: /categories/bootcamp/
-- title: "Blog"
-  url: /categories/blog/
 
   # - title: "Categories"
   #   url: /categories/
