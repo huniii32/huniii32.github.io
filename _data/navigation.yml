@@ -13,8 +13,8 @@ main:
 categories:
 - title: AI
   children:
-    title: "Machine learning(ML)"
-    url: /categories/machine-learning/
+    - title: "Machine learning(ML)"
+      url: /categories/machine-learning/
 
   # - title: "Categories"
   #   url: /categories/
