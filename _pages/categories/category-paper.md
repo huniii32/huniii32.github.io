@@ -1,9 +1,9 @@
 ---
-title: "Python"
+title: "Paper Review"
 layout: category
-permalink: /categories/python/
+permalink: /categories/paper/
 author_profile: true
-taxonomy: Python
+taxonomy: Paper
 sidebar:
   nav: "categories"
 ---

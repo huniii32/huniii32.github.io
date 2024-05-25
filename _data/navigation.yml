@@ -1,49 +1,39 @@
 # main links
 main:
   - title: "Home"
-    url: https://choiiis.github.io/
-
-  # - title: "GitHub"
-  #   url: https://github.com/choiiis
+    url: https://huniii32.github.io/
 
   - title: "About"
     url: /about/
 
-  # - title: "Projects"
-  #   url: /projects/
-
-  # - title: "Categories"
-  #   url: /categories/
-
+  - title: "GitHub"
+    url: https://github.com/huniii32
 
 # sidebar navigation (categories)
-# 2022.02.15 sidebar update : simple ver.
 categories:
-- title: Basics
+- title: Bootcamp
   children:
-    - title: "C/C++"
-      url: /categories/c-cpp/
-    - title: "Algorithm"
-      url: /categories/algorithm/
-    - title: "Data Structure"
-      url: /categories/data-structure/
     - title: "Python"
-      url: /categories/python/
-    - title: "Linux"
-      url: /categories/linux/
+      url: /categories/python-boot/
+    - title: "Statistics"
+      url: /categories/statistics-boot/
+    - title: "Machine Learning"
+      url: /categories/machine-learning-boot/
+    - title: "Coding Test"
+      url: /catergories/coding-test-boot/
     - title: "Git"
-      url: /categories/git/
+      url: /categories/git-boot/
 
-- title: Web
+- title: AI
   children:
-    - title: "HTML"
-      url: /categories/html/
-    - title: "CSS"
-      url: /categories/css/
+    - title: "Machine Learning"
+      url: /categories/machine-learning/
+    - title: "Deep Learning"
+      url: /categories/deep-learning/
+    - title: "Paper Review"
+      url: /categories/paper
 
 - title: Projects
   children:
     - title: "GitHub Blog"
       url: /categories/github-blog/
-    - title: "Machine Learning"
-      url: /categories/machine-learning/

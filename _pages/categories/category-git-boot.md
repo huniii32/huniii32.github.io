@@ -1,9 +1,9 @@
 ---
-title: "Web"
+title: "Git"
 layout: category
-permalink: /categories/web/
+permalink: /categories/git-boot/
 author_profile: true
-taxonomy: Web
+taxonomy: Git
 sidebar:
   nav: "categories"
 ---

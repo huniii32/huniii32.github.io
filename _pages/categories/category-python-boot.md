@@ -1,9 +1,9 @@
 ---
-title: "Algorithm"
+title: "Python"
 layout: category
-permalink: /categories/algorithm/
+permalink: /categories/python-boot/
 author_profile: true
-taxonomy: Algorithm
+taxonomy: Python
 sidebar:
   nav: "categories"
 ---
