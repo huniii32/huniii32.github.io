@@ -1,5 +1,5 @@
 ---
-title: "Coding Test - Machine Learning"
+title: "Machine Learning"
 excerpt: "Upstage X FastCampus AI Lab - Machine Learning"
 categories:
   - Machine Learning

@@ -41,7 +41,11 @@ last_modified_at: 2024-04-24
 
 ## **Probability Basics**  
 
+내용 수정중
+
 ## **Statistics Basic**  
+
+내용 수정중
 
 - **평균값**  
     - 산술평균
