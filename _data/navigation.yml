@@ -15,7 +15,7 @@ categories:
   children:
     - title: "Python"
       url: /categories/python-boot/
-    - title: "Statistics"
+    - title: "Statistics" 
       url: /categories/statistics-boot/
     - title: "Machine Learning"
       url: /categories/machine-learning-boot/
