@@ -1,12 +1,12 @@
 ---
 title: "Deep Learning"
-excerpt: "Upstage X FastCampus AI Lab - Deep Learning"
+excerpt: "Upstage X FastCampus AI Lab"
 categories:
   - Deep Learning
 tags:
-  - [deep learning, python, bootcamp]
+  - [python, bootcamp]
 
-permalink: /deep-learning-boot/bootcamp-deep-learning/
+permalink: /deep-learning-boot/deep-learning/
 
 toc: true
 toc_sticky: true
@@ -14,6 +14,7 @@ toc_sticky: true
 date: 2024-07-04
 last_modified_at: 2024-07-04
 ---
+
 # 🦥 Deep Learning 
 
 - **합성곱의 등장**   
