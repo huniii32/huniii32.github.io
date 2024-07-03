@@ -19,6 +19,8 @@ categories:
       url: /categories/statistics-boot/
     - title: "Machine Learning"
       url: /categories/machine-learning-boot/
+    - title: "Deep Learning"
+      url: /categories/deep-learning-boot/
     - title: "Coding Test"
       url: /categories/coding-test-boot/
     - title: "Git"

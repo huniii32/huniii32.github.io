@@ -6,7 +6,7 @@ categories:
 tags:
   - [python, bootcamp]
 
-permalink: /coding-test-boot/bootcamp-10/
+permalink: /coding-test-boot/deep-learning-01/
 
 toc: true
 toc_sticky: true
