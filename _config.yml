@@ -21,9 +21,9 @@ title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "Suhun-Jin"
 description              : "suhun's study blog"
-url                      : "https://huniii_32.github.io"
+url                      : "https://huniii32.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : "huniii32/huniii_32.github.io"
+repository               : "huniii32/huniii32.github.io"
 teaser                   : #"/assets/images/title_image.jpg"
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
