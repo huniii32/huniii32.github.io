@@ -6,5 +6,7 @@ main:
     url: /categories/
   - title: "Tags"
     url: /tags/
+  - title: "Coding-Test"
+    url: /codingtest/
   - title: "Visions"
     url: /vision/
