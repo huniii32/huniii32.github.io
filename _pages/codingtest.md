@@ -21,6 +21,8 @@ layout: single
 
 - SWEA: 더블더블 ★ [풀이](https://huniii32.github.io/codingtest/codingtest-09/) ★
 
+- SWEA: 수도 요금 경쟁 ★ [풀이](https://huniii32.github.io/codingtest/codingtest-11/) ★
+
 #### **1. 그리드**
 - 이코테 기출: 모험가 길드 ★ [풀이](https://huniii32.github.io/codingtest/codingtest-02/) ★
 
@@ -33,6 +35,8 @@ layout: single
 - SWEA: 홀수만 더하기 ★ [풀이](https://huniii32.github.io/codingtest/codingtest-06/) ★
 
 - SWEA: 평균값 더하기 ★ [풀이](https://huniii32.github.io/codingtest/codingtest-07/) ★
+
+- SWEA: A. September 9 ★ [풀이](https://huniii32.github.io/codingtest/codingtest-10/) ★
 
 
 #### **2. DFS/BFS**
