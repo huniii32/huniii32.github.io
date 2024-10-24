@@ -16,7 +16,7 @@ layout: single
 
 ### <span style='background-color: #E5EBF7;'> **Problem** </span>
 
-#### **01. Python*8
+#### **0. Python**
 - SWEA: 연월일 달력 ★ [풀이](https://huniii32.github.io/codingtest/codingtest-08/) ★
 
 - SWEA: 더블더블 ★ [풀이](https://huniii32.github.io/codingtest/codingtest-09/) ★
@@ -37,3 +37,5 @@ layout: single
 
 #### **2. DFS/BFS**
 - [baekjoon 18352번: 특정 거리의 도시 찾기](https://www.acmicpc.net/problem/18352) ★ [풀이](https://huniii32.github.io/codingtest/codingtest-01/) ★
+
+#### **3. 정렬**
