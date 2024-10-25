@@ -23,6 +23,8 @@ layout: single
 
 - SWEA: 수도 요금 경쟁 ★ [풀이](https://huniii32.github.io/codingtest/codingtest-11/) ★
 
+- SWEA: 새로운 불면증 치료 ★ [풀이](https://huniii32.github.io/codingtest/codingtest-12/) ★
+
 #### **1. 그리드**
 - 이코테 기출: 모험가 길드 ★ [풀이](https://huniii32.github.io/codingtest/codingtest-02/) ★
 
