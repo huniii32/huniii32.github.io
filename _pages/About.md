@@ -58,14 +58,14 @@ layout: single
 ▪    
 
 > **한글 점자 인식 및 번역 모델 개발** 2023.04 ~ 2023.11 (8개월)   
-##### 
+#####   
 ▪   
 ▪  
 ▪  
 ▪    
 
 > **KBO 구단 성적 분석 및 2024년 순위 예측** 2023.09 ~ 2023. 11 (3개월)   
-#####
+#####  
 ▪   
 ▪   
 ▪   
@@ -82,9 +82,14 @@ layout: single
 
 > **Upstage AI Lab 3기** 2024.04 ~ 2024.11 (8개월)  
 ##### 프로그래밍 언어, 데이터 분석 및 AI 기법 강의 그리고 기업 자체 경진 대회    
-▪ **Python, 크롤링 기법, ML & DL, CV, NLP, LLM**에 대한 지식 및 기술 공부    
+▪ Python, 크롤링 기법, ML & DL(CV, NLP, LLM)에 대한 지식 및 기술 공부    
 ▪ Kaggle 참여 - [Enfit Kaggle](https://www.kaggle.com/competitions/predict-energy-behavior-of-prosumers/overview)  
-▪ 기업 자체 경진 대회 참여 - 서울시 아파트 실거래가 예측, 문서 타입 분류 예측, 일상 대화 요약
+▪ 기업 자체 경진 대회 참여 - [Upstage AI Stages](https://stages.ai/)
+```
+- 서울시 아파트 실거래가 예측  
+- 문서 타입 분류 예측  
+- 일상 대화 요약
+```       
 ▪ 개별 스터디 진행      
 
 </div>
