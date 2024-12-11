@@ -14,8 +14,7 @@ layout: single
 
 ▪ 밀도 있는 삶을 지향하며 어떤 경험에서든 배움을 얻고 실천하려 합니다.   
 ▪ 사회의 핵심 인재, 공헌할 수 있는 사람이 되고 싶습니다.  
-▪ 숨은 인사이트를 발굴하고 효과적으로 제시하는 방법을 연구합니다.  
-▪ 기록과 공유의 가치를 알기에 학습한 것들을 Github에 남기고, 블로그를 운영하며 소통하고 있습니다.   
+▪ 숨은 인사이트를 발굴하고 효과적으로 제시하는 방법을 연구합니다.    
 
 ## 🧩 Skill
 
@@ -45,10 +44,10 @@ layout: single
 
 > **Upstage AI Lab 자체 경진대회 - CV** 2024.08 (1개월)   
 ##### 문서 타입 분류 예측
-▪ Augraphy library 활용하여 Data Augmentation    
-▪ OpenCV를 활용하여 Data Preprocessing  
-▪    
-▪     
+▪ Albumentations 및 OpenCV를 활용한 Data Augmentation 및 Preprocessing  
+▪ OCR을 활용한 1차 문서 분류 시스템 구현  
+▪ OCR로 분류되지 않는 문서에 대해 ResNet 모델의 피처맵 특성을 활용한 문서 타입 분류    
+▪ 데이터셋 클래스 및 커스텀 데이터 로더 설계로 학습 효율성 극대화      
 
 > **Upstage AI Lab 자체 경진대회 - ML** 2024.07 (1개월)   
 ##### 서울시 아파트 실거래가 예측
@@ -70,9 +69,6 @@ layout: single
 ▪   
 ▪   
 ▪    
-
-</div>
-</details>
 
 ## 📚 Edu
 
