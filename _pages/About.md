@@ -35,8 +35,7 @@ layout: single
 ##### SNS Data 자사 제품 감성 분석 모델 개발
 ▪ SNS Data Crawling  
 ▪ Data preprocessing  
-▪ LSTM 기반 감성 분석 모델 구현  
-▪ 결과 시각화(Web Demo Version)    
+▪ LSTM 기반 감성 분석 모델 구현      
 
 ## 🧗🏻 Personal Experience & Projects
 
@@ -47,14 +46,14 @@ layout: single
 ▪ Albumentations 및 OpenCV를 활용한 Data Augmentation 및 Preprocessing  
 ▪ OCR을 활용한 1차 문서 분류 시스템 구현  
 ▪ OCR로 분류되지 않는 문서에 대해 ResNet 모델의 피처맵 특성을 활용한 문서 타입 분류    
-▪ 데이터셋 클래스 및 커스텀 데이터 로더 설계로 학습 효율성 극대화      
+▪ 데이터셋 클래스 및 커스텀 데이터 로더 설계로 학습 효율성 높임        
 
 > **Upstage AI Lab 자체 경진대회 - ML** 2024.07 (1개월)   
 ##### 서울시 아파트 실거래가 예측
-▪     
-▪   
-▪   
-▪    
+▪  Raw Data Enginnering & Preprocessing
+▪  Feature Enginnering   
+▪  Machine Learning Model 설계  
+▪  Data & Result EDA
 
 > **한글 점자 인식 및 번역 모델 개발** 2023.04 ~ 2023.11 (8개월)   
 #####   
