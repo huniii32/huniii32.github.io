@@ -43,17 +43,18 @@ layout: single
 
 > **Upstage AI Lab 자체 경진대회 - CV** 2024.08 (1개월)   
 ##### 문서 타입 분류 예측
-▪ Albumentations 및 OpenCV를 활용한 **Data Augmentation & Preprocessing**  
-▪ **OCR**을 활용한 1차 문서 분류 시스템 구현  
-▪ OCR로 분류되지 않는 문서에 대해 ResNet 모델의 피처맵 특성을 활용한 문서 타입 분류    
-▪ 데이터셋 클래스 및 커스텀 데이터 로더 설계로 학습 효율성 높임        
+▪ **Raw Data Augmentation & Preprocessing**: Albumentations와 OpenCV를 활용하여 데이터 증강(Data Augmentation) 및 전처리 진행  
+▪ **학습 데이터 로더 설계:** 커스텀 데이터셋 클래스와 데이터 로더를 설계하여 학습 효율성을 높임  
+▪ **1차 분류 시스템 구현:** OCR 기반으로 문서를 1차적으로 분류하는 시스템 설계 및 구축  
+▪ **2차 분류 시스템 설계:** OCR로 분류되지 않는 문서를 위해 ResNet 모델의 Feature Map을 활용한 추가 분류 시스템 구현  
+▪ **모델 학습 및 평가:** 설계된 데이터 로더를 활용해 모델 학습을 수행하고, 정확도(Accuracy) 및 F1-score로 성능 평가          
 
 > **Upstage AI Lab 자체 경진대회 - ML** 2024.07 (1개월)   
-##### 서울시 아파트 실거래가 예측 (1등)  
-▪  **Raw Data Enginnering(서울시 실거래가)** 수행  
-▪  **Feature Enginnering**을 통해 주요 **파생 변수 추출(이전 거래 가격 데이터)**      
-▪  **Machine Learning Model(Catboost)** 설계 및 평가(RMSE)  
-▪  **Data & Result EDA** 수행  
+##### 서울시 아파트 실거래가 예측 (1등)   
+▪ **Raw Data Engineering:** 서울시 실거래가 데이터를 수집 및 전처리    
+▪ **Feature Engineering:** 이전 거래 가격 데이터를 활용해 주요 파생 변수를 생성 및 추가  
+▪ **Machine Learning Model 설계 및 평가:** CatBoost Regressor 모델을 설계하고, RMSE를 기준으로 성능 평가 및 최적화 수행  
+▪ **EDA(탐색적 데이터 분석):** 데이터와 결과를 시각화하여 모델 성능 및 결과 해석  
 
 > **한글 점자 인식 및 번역 모델 개발** 2023.04 ~ 2023.11 (8개월)   
 #####   
