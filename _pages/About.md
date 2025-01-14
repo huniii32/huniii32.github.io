@@ -43,19 +43,17 @@ layout: single
 
 > **Upstage AI Lab 자체 경진대회 - CV** 2024.08 (1개월)   
 ##### 문서 타입 분류 예측
-▪ Albumentations 및 OpenCV를 활용한 Data Augmentation 및 Preprocessing  
-▪ OCR을 활용한 1차 문서 분류 시스템 구현  
+▪ Albumentations 및 OpenCV를 활용한 **Data Augmentation & Preprocessing**  
+▪ **OCR**을 활용한 1차 문서 분류 시스템 구현  
 ▪ OCR로 분류되지 않는 문서에 대해 ResNet 모델의 피처맵 특성을 활용한 문서 타입 분류    
 ▪ 데이터셋 클래스 및 커스텀 데이터 로더 설계로 학습 효율성 높임        
 
 > **Upstage AI Lab 자체 경진대회 - ML** 2024.07 (1개월)   
-##### 서울시 아파트 실거래가 예측 (1등)
-▪  Raw Data Enginnering 수행  
-▪  Feature Enginnering을 통해 주요 변수 추출 및 데이터 개선  
-▪  Machine Learning Model 설계 및 평가  
-▪  Data & Result EDA 수행  
-
-**성과: 다른 참가자 대비 우수한 성능으로 경쟁에서 1등을 차지했으며,   예측 정확도(RMSE)를 개선** 
+##### 서울시 아파트 실거래가 예측 (1등)  
+▪  **Raw Data Enginnering(서울시 실거래가)** 수행  
+▪  **Feature Enginnering**을 통해 주요 **파생 변수 추출(이전 거래 가격 데이터)**      
+▪  **Machine Learning Model(Catboost)** 설계 및 평가(RMSE)  
+▪  **Data & Result EDA** 수행  
 
 > **한글 점자 인식 및 번역 모델 개발** 2023.04 ~ 2023.11 (8개월)   
 #####   
