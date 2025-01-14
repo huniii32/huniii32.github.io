@@ -12,7 +12,7 @@ layout: single
 
 #### **Introduction**
 
-▪ 밀도 있는 삶을 지향하며 어떤 경험에서든 배움을 얻고 실천하려 합니다.   
+▪ 깊이 있는 삶을 지향하며 어떤 경험에서든 배움을 얻고 실천하려 합니다.   
 ▪ 사회의 핵심 인재, 공헌할 수 있는 사람이 되고 싶습니다.  
 ▪ 숨은 인사이트를 발굴하고 효과적으로 제시하는 방법을 연구합니다.    
 
@@ -49,11 +49,17 @@ layout: single
 ▪ 데이터셋 클래스 및 커스텀 데이터 로더 설계로 학습 효율성 높임        
 
 > **Upstage AI Lab 자체 경진대회 - ML** 2024.07 (1개월)   
-##### 서울시 아파트 실거래가 예측
-▪  Raw Data Enginnering & Preprocessing
-▪  Feature Enginnering   
-▪  Machine Learning Model 설계  
-▪  Data & Result EDA
+##### 서울시 아파트 실거래가 예측 **(1등)**
+
+**▪ 목적: 서울시 아파트 실거래가를 예측**  
+
+▪  Raw Data Enginnering 수행  
+▪  Feature Enginnering을 통해 주요 변수 추출 및 데이터 개선  
+▪  Machine Learning Model 설계 및 평가  
+▪  Data & Result EDA 수행  
+
+- 성과 및 영향: 다른 참가자 대비 우수한 성능으로 경쟁에서 1등을 차지했으며,   
+예측 정확도(RMSE)를 개선.
 
 > **한글 점자 인식 및 번역 모델 개발** 2023.04 ~ 2023.11 (8개월)   
 #####   
