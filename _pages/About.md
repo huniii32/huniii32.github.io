@@ -12,6 +12,7 @@ layout: single
 
 #### **Introduction**
 
+▪ 문제의 본질을 데이터로 정의하고, 구조적으로 해석하는 AI 엔지니어입니다.  
 ▪ 깊이 있는 삶을 지향하며 어떤 경험에서든 배움을 얻고 실천하려 합니다.   
 ▪ 사회의 핵심 인재, 공헌할 수 있는 사람이 되고 싶습니다.  
 ▪ 숨은 인사이트를 발굴하고 효과적으로 제시하는 방법을 연구합니다.    
@@ -20,9 +21,10 @@ layout: single
 
 #### Programming & Analysis
  
-▪ Python (Pandas, Numpy, Matplotlib)  
-▪ C++  
-▪ R   
+▪ Python (Pandas, Numpy, Matplotlib)   
+▪ Pytorch, TensorFlow  
+▪ C++, R    
+▪ SQL(MariaDB, Oracle)
 
 #### Tools & Collaboration
  
@@ -39,36 +41,35 @@ layout: single
 
 ## 🧗🏻 Personal Experience & Projects
 
-#### 🔗 AI Field
+#### 🔗 Project
 
-> **Upstage AI Lab 자체 경진대회 - CV** 2024.08 (1개월)   
-##### 문서 타입 분류 예측
-▪ **Data Augmentation & Preprocessing**: Albumentations와 OpenCV를 활용하여 Augmentation 및 Preprocessing 진행  
-▪ **학습 데이터 로더 설계:** 커스텀 데이터셋 클래스와 데이터 로더를 설계하여 학습 효율성을 높임  
-▪ **1차 분류 시스템 구현:** OCR 기반으로 문서를 1차적으로 분류하는 시스템 설계 및 구축  
-▪ **2차 분류 시스템 구현:** OCR로 분류되지 않는 문서를 위해 ResNet 모델의 Feature Map을 활용한 추가 분류 시스템 구현  
-▪ **모델 평가:** 정확도(Accuracy) 및 F1-score로 성능 평가          
+**일상 대화 요약 모델 개발 (2024.09)**  
+- SOLAR, LLaMA 등 디코더-only LLM 구조 기반 실험 및 성능 비교  
+- 발화자 보존, 중복 제거 등 전처리 전략 설계 및 LoRA 기반 파인튜닝 수행  
+- ROUGE 점수 기준 최대 6pt 성능 향상 달성 및 경량화 전략 적용  
 
-> **Upstage AI Lab 자체 경진대회 - ML** 2024.07 (1개월)   
-##### 서울시 아파트 실거래가 예측 (1등)   
-▪ **Data Engineering:** 서울시 실거래가 데이터를 수집 및 전처리    
-▪ **Feature Engineering:** 이전 거래 가격 데이터를 활용해 주요 파생 변수를 생성 및 추가  
-▪ **ML Model 설계 및 평가:** CatBoost Regressor 모델을 설계하고, RMSE를 기준으로 성능 평가 및 최적화 수행  
-▪ **EDA(탐색적 데이터 분석):** 데이터와 결과를 시각화하여 모델 성능 및 결과 해석  
+**문서 타입 분류 모델 (2024.08)**    
+- OCR 및 이미지 증강 기반 문서 분류 모델 개발 (정확도 90%)  
+- 커스텀 데이터셋 설계, Albumentations 활용 데이터 증강  
 
-> **한글 점자 인식 및 번역 모델 개발** 2023.04 ~ 2023.11 (8개월)   
-#####   
-▪ **Data:** 한글 점자 책 기반의 데이터셋 제작  
-▪ **Data Augmentation & Preprocessing:** 데이터 증대 및 전처리 수행  
-▪ **DL Model 설계 및 평가:** yolo_v8 model 기반의 한글 점자 모델 파인튜닝      
+**서울시 아파트 실거래가 예측 (2024.07)**  
+- CatBoost 기반 회귀 모델 구현 및 RMSE 42% 개선 (기존 베이스라인 대비)  
+- Lag Feature, 역세권 랭크 피처 등 도메인 기반 피처 엔지니어링 설계  
+- 강남, 용산 등 이상값 지역 분리를 고려한 행정구 기반 모델링 전략 적용  
 
-> **KBO 구단 성적 분석 및 2024년 순위 예측** 2023.09 ~ 2023. 11 (3개월)   
-#####  
-▪   
-▪   
-▪   
-▪    
+**수면 인과 구조 분석 (2024.05)**  
+- 스트레스, 운동, 수면 간 관계를 데이터로 구조화해 가설 기반 분석  
+- 상관 분석, 시간대 기반 피처 설계, Streamlit 대시보드 구현  
+- 스트레스 관리 능력이 수면 질에 가장 큰 영향을 미친다는 핵심 인사이트 도출  
 
+**KBO 시즌 예측 모델 (2023.09 ~ 2023.11)**  
+- 구단별 정형/비정형 데이터 결합 및 성적 예측 모델 설계  
+- 정규시즌 성적 흐름 분석 및 승률 추정 기반 시즌 순위 예측  
+
+**한글 점자 인식 모델 개발 (2023.04 ~ 2023.11)**
+- YOLO 기반 점자 인식 모델 설계, 직접 라벨링한 자체 점자 데이터셋 구축  
+- Faster R-CNN + FPN 기반 인식 및 번역 파이프라인 개발  
+   
 ## 📚 Edu
 
 <details>
