@@ -10,4 +10,4 @@ layout: single
 ---
 ##  🖼 **BoostCamp**  
   
-[01](https://huniii32.github.io/boostcamp/precourse-01)  
+[01: File Systyem & Terminal](https://huniii32.github.io/boostcamp/precourse-01)  
