@@ -8,7 +8,7 @@ main:
     url: /tags/
   - title: "Coding-Test"
     url: /codingtest/
-  - title: "Boostcamp"
-    url: /boostcamp/
+  - title: "Paper"
+    url: /paper/
   - title: "Project"
     url: /project/
