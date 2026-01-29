@@ -92,9 +92,9 @@ analytics:
 
 # Site Author
 author:
-  name             : "Suhun Jin"
+  name             : "진수훈"
   avatar           : "/assets/images/title_image.PNG"
-  bio              : "👩🏻‍💻 Interested In Vision AI"
+  bio              : "👩🏻‍💻 Interested In Data Analytics & AI"
   location         : "Seoul, Korea"
   email            :
   links:
@@ -125,7 +125,7 @@ footer:
       # url:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/happy-jihye"
+      url: "https://github.com/huniii32"
     - label: "GitLab"
       icon: "fab fa-fw fa-gitlab"
       # url:
