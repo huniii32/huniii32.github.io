@@ -1,12 +1,7 @@
-.figure-small img {
-  max-width: 700px;
-  width: 100%;
-  margin: 0 auto;
-  display: block;
-}
-
 .figure-ui img {
-  width: clamp(280px, 50vw, 420px);
+  width: clamp(260px, 45vw, 420px) !important;
+  max-width: none !important;
+  height: auto !important;
   display: block;
   margin: 0 auto;
 }
