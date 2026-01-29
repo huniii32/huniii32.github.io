@@ -5,3 +5,12 @@
   display: block;
   margin: 0 auto;
 }
+
+/* default figure images can stay full width */
+figure img { width: 100%; }
+
+/* BUT: figure-ui must not be full width */
+figure.figure-ui img {
+  width: clamp(240px, 32vw, 420px) !important;
+  max-width: none !important;
+}

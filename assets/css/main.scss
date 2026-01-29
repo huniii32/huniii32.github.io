@@ -9,17 +9,15 @@
 
 @import "custom/customImport.scss";
 @import "custom/customOverride.scss";
+@import "custom/custom.scss";
 
 @import url('https://fonts.googleapis.com/css?family=Nanum+Gothic');
 @import url('https://fonts.googleapis.com/css?family=Nanum+Pen+Script');
 @import url('https://fonts.googleapis.com/css?family=Gamja+Flower');
 @import url('https://fonts.googleapis.com/css?family=Noto+Sans+KR&display=swap');
 
-.page__content figure.figure-ui img,
-figure.figure-ui img {
-  width: clamp(240px, 32vw, 420px) !important;
-  max-width: none !important;
+.page__content img {
+  width: auto !important;        /* 100% 강제 확대 제거 */
+  max-width: 100% !important;    /* 화면이 작으면 줄어들게 */
   height: auto !important;
-  display: block;
-  margin: 0 auto;
 }
