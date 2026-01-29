@@ -4,3 +4,9 @@
   margin: 0 auto;
   display: block;
 }
+
+.figure-ui img {
+  width: clamp(280px, 50vw, 420px);
+  display: block;
+  margin: 0 auto;
+}
