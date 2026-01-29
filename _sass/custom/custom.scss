@@ -1,7 +1,8 @@
-.figure-ui img {
-  width: clamp(260px, 45vw, 420px) !important;
-  max-width: none !important;
-  height: auto !important;
+.page__content figure.figure-ui img {
+  width: clamp(260px, 35vw, 420px);
+  max-width: none;
+  height: auto;
   display: block;
   margin: 0 auto;
+  outline: 4px solid red;
 }
