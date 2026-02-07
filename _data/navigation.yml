@@ -4,11 +4,11 @@ main:
     url: /about/
   - title: "Categories"
     url: /categories/
-  - title: "Tags"
-    url: /tags/
   - title: "Coding-Test"
     url: /codingtest/
-  - title: "Paper"
+  - title: "논문"
     url: /paper/
   - title: "Project"
     url: /project/
+  - title: "자격증"
+    url: /certification/
