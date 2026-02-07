@@ -16,23 +16,33 @@
 @import url('https://fonts.googleapis.com/css?family=Gamja+Flower');
 @import url('https://fonts.googleapis.com/css?family=Noto+Sans+KR&display=swap');
 
-/* figure-ui 내부 이미지 무조건 왼쪽 */
-.page__content figure.figure-ui > img {
-  display: block !important;
-  margin-left: 0 !important;
-  margin-right: auto !important;
-}
-
-/* figure 자체도 왼쪽 */
+/* 기본: 가운데 */
 .page__content figure.figure-ui {
-  margin-left: 0 !important;
-  margin-right: auto !important;
-  text-align: left !important;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
 }
 
-/* 캡션도 왼쪽 */
-.page__content figure.figure-ui > figcaption {
-  text-align: left !important;
+.page__content figure.figure-ui img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* 왼쪽 버전 */
+.page__content figure.figure-ui.left {
+  margin-left: 0;
+  margin-right: auto;
+  text-align: left;
+}
+
+.page__content figure.figure-ui.left img {
+  margin-left: 0;
+  margin-right: auto;
+}
+
+.page__content figure.figure-ui.left figcaption {
+  text-align: left;
 }
 
 /* 글자 강조 */
