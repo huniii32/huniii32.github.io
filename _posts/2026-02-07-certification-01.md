@@ -1,5 +1,5 @@
 ---
-title: "[정처기]필기 회고"
+title: "[정처기]2026년 1회 필기 회고"
 excerpt: "정처기 필기 회고 및 실기 계획"
 categories:
  - certification
