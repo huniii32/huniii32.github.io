@@ -30,7 +30,7 @@ masthead_title           : # overrides the website title displayed in the masthe
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 comments:
-  provider               : "false" # 블로그 댓글 기능 false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "custom"
+  provider               : "utterances" # "false" (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "custom"
   disqus:
     shortname            : # 블로그 댓글 기능 https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
   discourse:
@@ -41,8 +41,8 @@ comments:
     num_posts            : # 5 (default)
     colorscheme          : # "light" (default), "dark"
   utterances:
-    theme                : # "github-light" (default), "github-dark"
-    issue_term           : # "pathname" (default)
+    theme                : "github-light" # "github-light" (default), "github-dark"
+    issue_term           : "pathname" # "pathname" (default)
   staticman:
     branch               : # "master"
     endpoint             : # "https://{your Staticman v3 API}/v3/entry/github/"
@@ -51,8 +51,8 @@ reCaptcha:
   secret                 :
 atom_feed:
   path                   : # blank (default) uses feed.xml
-search                   : # true, false (default)
-search_full_content      : # true, false (default)
+search                   : true # lunr 기반 내장 검색 켜기
+search_full_content      : true # 본문까지 검색 대상에 포함
 search_provider          : # lunr (default), algolia, google
 algolia:
   application_id         : # YOUR_APPLICATION_ID
@@ -62,11 +62,9 @@ algolia:
 google:
   search_engine_id       : # YOUR_SEARCH_ENGINE_ID
   instant_search         : # false (default), true
-# SEO Related
-google_site_verification :
-bing_site_verification   :
-yandex_site_verification :
-naver_site_verification  :
+# SEO Related — Search Console에서 발급받은 소유권 확인 코드를 따옴표 안에 입력
+google_site_verification : # 예: "abc123..."
+naver_site_verification  : # 예: "naverabcd1234..."
 
 # Social Sharing
 twitter:
@@ -85,9 +83,9 @@ social:
 
 # Analytics
 analytics:
-  provider               : "false" # 구글 어날리틱스 등록 false (default), "google", "google-universal", "custom"
+  provider               : "google-gtag" # GA4용. "false" (default), "google", "google-universal", "google-gtag", "custom"
   google:
-    tracking_id          : 
+    tracking_id          : "G-ZNKP5D7E1B" # GA4 측정 ID
     anonymize_ip         : # true, false (default)
 
 # Site Author

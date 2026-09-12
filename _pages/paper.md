@@ -9,5 +9,5 @@ layout: single
 
 ---
 ##  🖼 **논문**  
-  
-[01: Attention Is All You Need](https://huniii32.github.io/paper/paper-01)  
+
+> 준비 중인 공간입니다. 첫 논문 리뷰가 발행되면 여기에 목록이 생깁니다.

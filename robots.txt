@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://happy-jihye.github.io/sitemap.xml
+Sitemap: https://huniii32.github.io/sitemap.xml
