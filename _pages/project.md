@@ -17,4 +17,3 @@ layout: single
 ### [Game][컴투스 프로야구 v26 랭킹챌린지 타자, 투수 분석]
 [01: 개요](https://huniii32.github.io/baseballgame/game-01)  
 [02: 타자 정보](https://huniii32.github.io/baseballgame/game-02)
-[03: 실제 확인](https://huniii32.github.io/baseballgame/game-03)
