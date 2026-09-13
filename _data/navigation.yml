@@ -6,3 +6,5 @@ main:
     url: /categories/
   - title: "Coding-Test"
     url: /codingtest/
+  - title: "AI-News"
+    url: /ai-news/
